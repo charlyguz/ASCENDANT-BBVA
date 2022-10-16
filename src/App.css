@@ -1,1 +1,8 @@
-
+body{
+    background-color: #fff;
+}
+/* .App{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #ffffff, #e2dffa, #c3c0f5, #a1a3ef, #7987ea, #658bf1, #488ef8, #0092fe, #00b1ff, #00cdff, #00e5fd, #5ffbf1);
+} */

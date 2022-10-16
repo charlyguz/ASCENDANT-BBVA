@@ -1,14 +1,19 @@
 import React from "react";
-import "Navbar.css";
+import "./Footer.css";
 
-function Navbar (){
+function Footer (){
     return (
         <React.Fragment>
-            <div className="navbar">
-                
-            </div>
+            <footer className="footer">
+                <div className="footer-items">
+                    <h2 className="footer-items">Powered by CryptoBlueberry</h2>
+                    <p className="footer-items">© 2021 CryptoBlueberry. All rights reserved.</p>
+                    <p className="footer-items">Compra e hipoteca tus NFTs de forma segura y agil </p>
+                </div>
+
+            </footer>
         </React.Fragment>
     );
 }
 
-export default Navbar;
+export default Footer;
