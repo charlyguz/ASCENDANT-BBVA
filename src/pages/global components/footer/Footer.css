@@ -1,5 +1,8 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
 .footer{
-    background-color: #6677E7;
+    background: linear-gradient(140.53deg, #4C3A81 -4.03%, #3C3176 117.28%);
     color: #250043;
     display: flex;
     flex-direction: row;

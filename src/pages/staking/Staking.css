@@ -7,13 +7,7 @@
     padding: 0;
 }
 body{
-    background-image: linear-gradient(
-    150deg,
-    hsl(206deg 100% 38%) 0%,
-    hsl(199deg 100% 46%) 35%,
-    hsl(203deg 96% 77%) 55%,
-    hsl(0deg 0% 100%) 100%
-    );
+    background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ;
 }
 .main-staking{
     display: flex;

@@ -5,7 +5,7 @@ function Navbar () {
     return (
         <React.Fragment>
             <header className="header">
-                <div className="header-container">
+                <nav className="header-container">
                     <div className="header__logo">
                         <img src={require("../../../assets/blueberry-icon.png")} alt="logo"  className="header__logo-img"/>
                     </div>
@@ -23,7 +23,11 @@ function Navbar () {
                             <li className="header__menu-item"><a href="#" className="header__menu-item">Hipoteca NFT</a></li>
                         </ul>
                     </div>
-                </div>
+                    
+                    <div className="header__button">
+                        <button className="header__button-connect">Connect Wallet</button>
+                    </div>
+                </nav>
             </header>
         </React.Fragment>
     );

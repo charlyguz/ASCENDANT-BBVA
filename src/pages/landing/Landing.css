@@ -1,0 +1,594 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    color: white;
+  }
+  
+  html {
+    /* background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ; */
+  }
+  
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+      Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+      "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ;
+  }  
+  /* SECTION HERO START */
+  .section__hero {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 600px;
+    align-items: center;
+  }
+  
+  .section__hero--left {
+  }
+  
+  .section__hero--left-container {
+  }
+  
+  .section__hero-title {   
+    /* Una nueva manera de manejar tus NFT */
+    position: absolute;
+    width: 916px;
+    height: 174px;
+    left: 319px;
+    top: 241px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    background: radial-gradient(131.03% 2919.61% at -23.53% 0%, #DCD6FF 0%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+
+  }
+  .section__hero-description {
+    /* Obtenga sus puntos bancomer al mantener sus nfts */
+
+    position: absolute;
+    width: 661px;
+    height: 78px;
+    left: 329px;
+    top: 450px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(255, 255, 255, 0.7);
+
+
+  }
+  
+.section__hero--left-buttons {
+    position: absolute;
+    left: 332px;
+    top: 563px;
+
+
+}
+  
+.section__hero--left-buttona{
+background: linear-gradient(91.93deg, #467CB3 0%, #663E9F 102.81%);
+width: 150px;
+height: 50px;
+border-radius: 10px;
+border-color: transparent;
+}
+.section__hero--left-buttona:active{
+    color: blue;
+    width: 130px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    left: 8px;
+}
+
+.section__hero--right {
+    height: 700px;
+}
+
+.section__hero--right-container {
+    position: relative;
+    width: 943px;
+    height: 648px;
+    left: 656px;
+    top: 10px; 
+}
+
+.section__hero--right-img {
+
+}
+
+/* SECTION HERO END */
+
+/* SECTION NFT START */
+
+.section__NFT {
+    width: 100%;
+    height: 300px;
+    background-color: var(--secundary-bg-color);
+    position: relative;
+}
+
+.section__NFT-container {
+    position: relative;
+    width: 90%;
+    left: 4px;
+    display: flex;
+}
+
+.section__NFT-img {
+    height: 40%;
+    filter: brightness(.5) grayscale(1);
+    opacity: .5;
+    margin : 0 20px;
+}
+.section__partner--img{
+  position: relative;
+}
+  
+  /* SECTION SERVICES START */
+.subtitle{
+    /* Crypto */
+    position: absolute;
+    width: 916px;
+    height: 154px;
+    left: 502px;
+    top: 1053px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+
+    background: radial-gradient(131.03% 2919.61% at -23.53% 0%, #DCD6FF 0%, #FFFFFF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    }
+.p-descript{
+/* Obtenga sus puntos bancomer al mantener sus nfts */
+
+    position: absolute;
+    width: 676px;
+    height: 78px;
+    left: 630px;
+    top: 1168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+.section__services {
+    margin-bottom: 200px;
+    height: 800px;
+    width: 100%;
+}
+
+.section__services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 150px;
+    position: absolute;
+    width: 1450px;
+    height: 458px;
+    top: 1320px;
+    left: 250px;
+}
+
+.section__services-service-box {
+    background: linear-gradient(140.53deg, #4C3A81 -4.03%, #3C3176 117.28%);
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 16px;
+
+}
+
+.section__services-service-image-box {
+    height: 250px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+}
+
+.section__services-service-image {
+    width: 80%;
+    height: 80%;
+}
+
+.section__services-service-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__services-service-text--tile {
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+
+.section__services-service-text--description {
+    font-size: 18px;
+    text-align: center;
+}
+  
+  /* SECTION SERVICES END */
+
+/* SECTION BENEFICIOS START */
+.subtitle2{
+    /* Crypto */
+    position: relative;
+    width: 916px;
+    height: 154px;
+    left: 502px;
+    /* top: 2000px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+
+    background: radial-gradient(131.03% 2919.61% at -23.53% 0%, #DCD6FF 0%, #FFFFFF 100%) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    }
+.p-descript2{
+/* Obtenga sus puntos bancomer al mantener sus nfts */
+    position: relative;
+    width: 676px;
+    height: 78px;
+    left: 630px;
+    /* top: 2100px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+.section__beneficios {
+    margin-bottom: 100px;
+    height: 1200px;
+    width: 100%;
+}
+.section__beneficios-boxes{
+    position: relative;
+    width: 1450px;
+    height: 458px;
+    top: 200px;
+}
+.section__beneficios-container1 {
+    display: flex;
+    position: absolute;
+    width: 1450px;
+    height: 458px;
+    left: -550px;
+}
+.section__beneficios-container2 {
+    display: flex;
+    position: absolute;
+    width: 1450px;
+    height: 458px;
+    left: 600px;
+}
+.section__beneficios-container3 {
+    display: flex;
+    position: absolute;
+    width: 1450px;
+    height: 458px;
+    left: 1500px;
+}
+
+.section__beneficios-beneficio-box{
+    background: linear-gradient(140.53deg, #4C3A81 -4.03%, #3C3176 117.28%);
+    backdrop-filter: blur(2px);
+    border-radius: 16px;
+
+}
+
+.section__beneficios-beneficio-image-box {
+    height: 250px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+}
+
+.section__beneficios-beneficio-image {
+    width: 80%;
+    height: 80%;
+}
+
+.section__beneficios-beneficio-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section__services-service-text--tile {
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+
+.section__beneficios-beneficio-text--description {
+    font-size: 18px;
+    text-align: center;
+}
+  /* SECTION BENEFICIOS END*/
+  /* SECTION RAREZA START */
+  
+.section__rareza {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 77px;
+    text-align: center;
+
+    background: radial-gradient(131.03% 2919.61% at -23.53% 0%, #DCD6FF 0%, #FFFFFF 100%) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.subtitle3{
+    position: relative;
+    width: 916px;
+    height: 154px;
+    left: 502px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+
+    background: radial-gradient(131.03% 2919.61% at -23.53% 0%, #DCD6FF 0%, #FFFFFF 100%) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.section__rareza-part1 {
+    position: absolute;
+    width: 824px;
+    height: 742px;
+    background: #867A7A;
+    left: 200px
+}
+
+.section__rareza-part2 {
+    position: absolute;
+    width: 721px;
+    height: 742px;
+    left: 1024px;
+    background: linear-gradient(140.53deg, #4C3A81 -4.03%, #3C3176 117.28%);
+    backdrop-filter: blur(2px);
+    border-radius: 16px;
+
+}
+/*SECTION RAREZA ENDS */
+
+
+
+  
+/* SECTION ABOUT START */
+.section__about {
+  margin-bottom: 200px;
+  height: 1000px;
+  width: 100%;
+  position: relative;
+}
+
+.section__about-container {
+}
+
+.section__about-top {
+}
+
+.section__about-title {
+  position: relative;
+  width: 100%;
+  height: 154px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.section__about-description {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.7);
+
+
+}
+
+.section__about-container-inner {
+  position: relative;
+}
+
+.roadmap-title {
+  text-align: center;
+  color:rgba(255, 255, 255, 0.7);
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.section__about-container-inner-grid {
+}
+
+.roadmap-line {
+  position: absolute;
+  left: 50%;
+  z-index: 0;
+  width: 4px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, 0);
+}
+
+.section__about-container-inner-grid-item {
+  display: grid;
+  margin-bottom: 2em;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 6em 1fr;
+  grid-template-columns: 1fr 6em 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stage {
+  display: flex;
+  width: 5em;
+  height: 5em;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+  z-index: 2;
+}
+
+.stage-text {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 16px;
+}
+
+.stage-text-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+/* SECTION ABOUT ENDS */
+/* SECTION FAQ STARTS */
+.section__faq{
+  margin-bottom: 50px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section__faq-container{
+  position: relative;
+  width: 1000px;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: transparent;
+  flex-direction: column;
+}
+.section__faq--q{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter';
+  font-style: normal;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+  flex-direction: column;
+}
+
+/* SECTION FAQ ENDS */
