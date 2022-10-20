@@ -73,7 +73,7 @@
 .header__button{
     display: flex;
     position: absolute;
-    left: 1550px;
+    left: 1600px;
     align-items: center;
 }
 .header__button-connect{

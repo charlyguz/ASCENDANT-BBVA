@@ -3,13 +3,10 @@ import "./Mint.css";
 import Navbar from "../global components/navbar/Navbar";
 
 function Mint() {
-    const tupedo = {
-        
-    }
     return (
     <React.Fragment>
         <Navbar/>
-        
+   
         <main className="main">
             <div className="main__NFTcontainer">
                 <img src={require("../../assets/NFTprueba.png")} className="main__nftimage-1" alt=""/>
@@ -34,6 +31,7 @@ function Mint() {
                 <button className="main__button-plus">+</button>
                 
             </div>
+            <button className="main__button-mint">Mint Now</button>
         </main>
     </React.Fragment>
   );
