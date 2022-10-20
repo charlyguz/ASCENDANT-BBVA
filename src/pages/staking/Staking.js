@@ -1,9 +1,12 @@
 import React from "react";
+import Footer from "../global components/footer/Footer";
+import Navbar from "../global components/navbar/Navbar";
 import "./Staking.css";
 
 function Staking(){
     return(
         <React.Fragment>
+            <Navbar/>
             <div className="main-staking">
                     <div className="beneficios-container">
                         <h2>¿Que es staking?</h2>
@@ -43,6 +46,8 @@ function Staking(){
                     </div>
                     
                 </div>
+
+                <Footer/>
         </React.Fragment>
     );
 }

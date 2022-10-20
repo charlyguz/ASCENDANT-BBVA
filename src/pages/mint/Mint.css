@@ -1,0 +1,309 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    color: white;
+  }
+html {
+  /* background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ; */
+
+}
+  
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ;
+}  
+.main{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(100% 324.41% at 0% 50%, #2D1E49 17.01%, #212342 36.82%, #1D2540 50.48%, #1D2343 62.8%, #231C4A 72.31%);
+}
+.main__nftimage-1{
+    position: absolute;
+    width: 246px;
+    height: 296px;
+    left: 50px;
+    top: 135px;
+    filter: drop-shadow(20px 10px 4px rgba(0, 0, 0, 0.25));
+    z-index: 10;
+    animation: nftimage-move 10s infinite;
+  }
+  .main__nftimage-2{
+    position: absolute;
+    width: 325px;
+    height: 391px;
+    left: 200px;
+    filter: drop-shadow(20px 10px 4px rgba(0, 0, 0, 0.25));
+    z-index: 20;
+    animation: nftimage-move2 10s infinite;
+  }
+  .main__nftimage-3{
+    position: absolute;
+    width: 245px;
+    height: 296px;
+    left: 420px;
+    top: 135px;
+    filter: drop-shadow(20px 10px 4px rgba(0, 0, 0, 0.25));
+    z-index: 10;
+    animation: nftimage-move3 10s infinite;
+  }
+.main__NFTcontainer{
+  position: relative;
+  width: 723px;
+  height: 503px;
+  left: 152px;
+  top: 120px;
+  filter: drop-shadow(20px 10px 4px rgba(0, 0, 0, 0.25));
+}
+.main__title{
+  position: absolute;
+  width: 286px;
+  height: 42px;
+  left: 377px;
+  top: 700px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+}
+.main__subtitle{
+  position: absolute;
+  width: 300px;
+  height: 42px;
+  left: 335px;
+  top: 800px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #FFFFFF;
+}
+.main__button-mint{
+  position: absolute;
+  width: 263px;
+  height: 66px;
+  left: 1097px;
+  top: 607px;
+
+  background: linear-gradient(90.11deg, #00FECE 2.58%, #00F8B4 23.74%, #00F095 51.51%, #00ED8C 59.9%, #00E978 74.9%, #00E466 85.87%);
+  border-radius: 15px;
+}
+.main__text h1{
+  position: absolute;
+  width: 662px;
+  height: 270px;
+  left: 1023px;
+  top: 105px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  background: linear-gradient(94.3deg, #E5CCC0 0.69%, #3F9DB4 104.26%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.main__text p{
+  position: absolute;
+  width: 517px;
+  height: 94px;
+  left: 1096px;
+  top: 416px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+    flex-direction: column;
+}
+
+.main__button-container{
+  position: relative;
+  left: 1200px;
+  top: 150px;
+  height: 100px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.main__button-minus{
+  /* position: absolute;
+  top: 50px */
+  line-height: 58px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  -webkit-text-stroke: 2px rgba(246, 250, 163, 1);
+  color: transparent;
+  font-size: 100px;
+}
+.main__button-minus:active{
+  color: #fff;
+}
+.main__label{
+  /* position: absolute;
+  top: 50px;
+  left:50px; */
+  line-height: 58px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  -webkit-text-stroke: 2px rgba(246, 250, 163, 1);
+  color: transparent;
+  font-size: 100px;
+}
+.main__button-plus{
+  /* position: absolute;
+  top: 10px;
+  left: 100px; */
+  line-height: 58px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  -webkit-text-stroke: 2px rgba(246, 250, 163, 1);
+  color: transparent;
+  font-size: 100px;
+}
+.main__button-plus:active{
+  color: #fff;
+}
+@keyframes nftimage-move {
+  0% { 
+    
+  }
+  15% { 
+    transform: translate(-30px, 0);
+  }
+  25% {
+    transform: translate(-10px, 0);
+    z-index: 30;
+    width: 325px;
+    height: 391px;
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    transform: translate(70px, 0);
+    z-index: 10;
+  }
+  75% {
+    transform: translate(0, 0);
+    width: 245px;
+    height: 296px;
+    left: 420px;
+    top: 135px;
+    z-index: 10;
+  }
+  100% {
+    transform: translate(100px, 0);
+    width: 246px;
+    height: 296px;
+    left: 50px;
+    z-index: 10;
+  }
+}
+@keyframes nftimage-move2 {
+  0% { 
+    
+  }
+  25% {
+    transform: translate(220px, 135px);
+    width: 245px;
+    height: 296px;
+    z-index: 10;
+  }
+  
+  75% {
+    transform: translate(-180px, 135px);
+    width: 245px;
+    height: 296px;
+    z-index: 5;
+  }
+  100% {
+    transform: translate(0px, 0px);
+    width: 325px;
+    height: 391px;
+    z-index: 20;
+  } 
+}
+@keyframes nftimage-move3 {
+  0% { 
+    
+  }
+  25% {
+    transform: translate(-440px, 0px);
+    width: 245px;
+    height: 296px;
+    z-index: 10;
+  }
+  75% {
+    transform: translate(-220px, -135px);
+    width: 325px;
+    height: 391px;
+    z-index: 20;
+  }
+  100% {
+    transform: translate(0px, 0);
+    width: 245px;
+    height: 296px;
+    z-index: 10;
+  } 
+}

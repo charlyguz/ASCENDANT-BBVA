@@ -1,10 +1,14 @@
 import React from "react";
 import "./Landing.css";
-
+import Navbar from "../global components/navbar/Navbar";
+import Footer from "../global components/footer/Footer";
 
 function Landing() {
+    
     return (
+        
         <React.Fragment>
+            <Navbar/>
              <main className="main">
                 <section className="section_hero">
                     <div className="section__hero--left">
@@ -275,6 +279,7 @@ function Landing() {
 
             </main>
             
+            <Footer />
         </React.Fragment>
     );
 }
