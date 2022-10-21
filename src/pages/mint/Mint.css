@@ -182,6 +182,7 @@ body {
   -webkit-text-stroke: 2px rgba(246, 250, 163, 1);
   color: transparent;
   font-size: 100px;
+  cursor: pointer;
 }
 .main__button-minus:active{
   color: #fff;
@@ -211,6 +212,7 @@ body {
   -webkit-text-stroke: 2px rgba(246, 250, 163, 1);
   color: transparent;
   font-size: 100px;
+  cursor: pointer;
 }
 .main__button-plus:active{
   color: #fff;
@@ -227,6 +229,7 @@ body {
   font-weight: 700;
   background: linear-gradient(90.11deg, #5BFFE0 2.58%, #00F8B4 47.2%, #00F8B4 84.75%);
   border-radius: 15px;
+  cursor: pointer;
 }
 .main__button-mint:active{
   background: linear-gradient(91.93deg, #467CB3 0%, #663E9F 102.81%);

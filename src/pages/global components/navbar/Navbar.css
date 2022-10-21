@@ -82,7 +82,19 @@
     height: 50px;
     border-radius: 10px;
     border-color: transparent;
+    cursor: pointer;
 }
+
+.header__button-connect:hover{
+    background: linear-gradient(91.93deg, #467CB3 0%, #663E9F 102.81%);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: transparent;
+    cursor: pointer;
+    color: #B5E5F9;
+}
+
 .header__button-connect:active{
     color: blue;
     width: 130px;
