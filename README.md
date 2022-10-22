@@ -22,44 +22,33 @@ En CryptoBlueberry desarrollamos una forma de  comunicar el mundo real con la we
 [pendiente)
 
 
-# Servicios            [![0dbf1883-4de6-4635-8f80-2669007ed5b3.jpg](https://i.postimg.cc/vZssd7sy/0dbf1883-4de6-4635-8f80-2669007ed5b3.jpg)](https://postimg.cc/1fJTGqX7)
+# Tutorial
 
-[![Whats-App-Image-2022-10-22-at-8-31-23-AM.jpg](https://i.postimg.cc/9fwX15Cq/Whats-App-Image-2022-10-22-at-8-31-23-AM.jpg)](https://postimg.cc/Y4kwqP4p)
-- Personalización de credit card
-- Ecosistema 
-- Colecciones padre
-- Hipoteca de NFTS
-- AIDROPS
+# Colección BBVA
+(aqui insertar gif de la coleccion)
 
-# Roadmap
+Con la colección ACENDANT BBVA, el usuario tendrá acceso a los siguientes beneficios:
+- Comunidad de Discord con canales privados donde podrá aprender sobre ntf's, crypto, finanzas, acciones, y bienes raíces.
+- Personalización de su tarjeta  de crédito con su NFT, con la cual tendrá puntos dobles.
+- Staking.
 
-## Fase 1
+*En dado caso que el usuario decida vender su NFT, esto generara un evento que recibira un bot de discord personalizado que lo espulsara de los canales privados, y a su vez se conectara con los servicios de BBVA para desactivar la TDC personalizada, asegurando de esta forma que solo UNA PERSONA EN EL MUNDO tenga esa TDC, dandole al cliente exlusividad.*
+**Si la rareza del NFT del cliente es de la mas alta podra tener acceso a un asesor financiero personalizado.**
 
-- Comprando ty nft, ingresa al server de discord y desbloque canales exclusivos, a su vez reclama tu TDC personalizada y ocupa nuestro servicio de staking
+La coleccion ACENDANT BBVA contara con 888 NFT'S, los cuales podras compras de las siguientes formas:
+- Lista de invitados: Se otorgaran 444 tokens a clientes preferenciales de BBVA, y a miembros de la comunidad con base a dinamicas.
+- Compra publica: Cualquier persona podra comprar atravez de crypto o tarjeta de credito.
 
+# AIRDROPS
+De forma trimerstral se le otorgaran NFT's de regalo a los holders, los cuales tendran una metadata oculta hasta la revelacion, donde se podra ver que tipo de beneficio es dependiento su rareza podrian ser:
+- Puntos BBVA.
+- Anualidad Gratis.
+- Salas preferentes en Aereopuertos.
+- Reduicir tazas de interes.
+- Upgrade de tarjeta de credito.
 
-
-## Fase 2 Crypto wallet
-- Realiza consulta de saldo, ve operaciones ejecutadas, obten seguridad al firmar cualquier transacción con datos Biometricos
-
-## Fase 3 Compra con tu TDC
-podrás comprar cualquier colección desde tu banca pagando con tu TDC y recibela en tu crypto wallet BBVA
-
-[![Whats-App-Image-2022-10-21-at-3-57-14-PM.jpg](https://i.postimg.cc/DfDw7mQB/Whats-App-Image-2022-10-21-at-3-57-14-PM.jpg)](https://postimg.cc/G9FCQL5y)
-
-# AIRDROPS [![icono-vector-de-beneficios-s-mbolo-ilustraci-n-regalo-signo-celebraci-n-o-logotipo-para-sitios-web-m.jpg](https://i.postimg.cc/rmy3wgn6/icono-vector-de-beneficios-s-mbolo-ilustraci-n-regalo-signo-celebraci-n-o-logotipo-para-sitios-web-m.jpg)](https://postimg.cc/2qJ2HdNT)
-En busca de hacer usos en la videa real con los NFTS ofrecemos la siguiente solución
-De forma trimestral los holders recibiran una caja especial, esta puede ser alguna de las siguientes
-
--Puntos BBVA.
-
--Anualidad gratis.
-
--Salas preferenciales en aeropuertos.
-
--Reducción de tasas de interés.
-
-[![ba1aa9ae-eede-4bad-9e9a-b1b7bde898cc.jpg](https://i.postimg.cc/Mp6Jvkn8/ba1aa9ae-eede-4bad-9e9a-b1b7bde898cc.jpg)](https://postimg.cc/4mSSSSv8)
+Para redimir sus beneficios el cliente entrara a nuestra dapp {insertar link}, (posteriormente se incorpoorara a la banca movil de BBVA), {insertar img del site}, 
+el cliente solo tendra que conectar su wallet y clickear el boton de redimir, este se encontrara conectado al Smart Contract donde validara si el cliente tiene el token y si no se ha redimido anteriormente, posterior a esto se retirara el approval del token (el aproval es el permiso que tiene el dueño a poder vender/transferir/remidir recompensar/), con esto se asegura que el usuario podra seguir vizualisando su NFT en OpenSea haciendolo coleccionable de por vida,  pero no podra sacar gananancias de el.
 
 
 El usuario canjeará sus cajas de regalo entrando al dashboard en nuestra dapp, donde podrá clickear un boton y se le enviará un correo con su regalo, el token no se quemara solo se le quitaran los DERECHOS DE VENTA Y USO, por lo que podra seguir viendolo en OpenSea pero no podrá venderlo,De este modo no pierde su arte digital.
@@ -69,17 +58,7 @@ El usuario canjeará sus cajas de regalo entrando al dashboard en nuestra dapp, 
 [![Whats-App-Image-2022-10-22-at-9-46-16-AM.jpg](https://i.postimg.cc/BZN2FH6P/Whats-App-Image-2022-10-22-at-9-46-16-AM.jpg)](https://postimg.cc/Sj2XFXcm)
 .
 
-# Colección BBVA
 
-Con la colección Padre(la primera que se compra), el usuario tendrá acceso a los siguientes beneficios:
-- Comunidad de Discord con canales privadosdonde podrá aprender sobre ntfs 
-- Crypto 
-- Finanzas 
-- Acciones 
-- Bienes raíces.
-- Personalización de su tarjeta  de crédito con tu NFT, con la cual tendrá beneficios exclusivos al pagar con ella.
-
-[![tarjeta-limpia-mc-unam-2400x1600-01-jpg-img-1600-1664916440715.jpg](https://i.postimg.cc/1tWCvtP9/tarjeta-limpia-mc-unam-2400x1600-01-jpg-img-1600-1664916440715.jpg)](https://postimg.cc/sQh4X3v8)
 
 ## Landing Page
 [![Whats-App-Image-2022-10-21-at-8-46-45-PM.jpg](https://i.postimg.cc/wvdf12wx/Whats-App-Image-2022-10-21-at-8-46-45-PM.jpg)](https://postimg.cc/v13LjrRC)
