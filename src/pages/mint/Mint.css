@@ -235,6 +235,14 @@ body {
   background: linear-gradient(91.93deg, #467CB3 0%, #663E9F 102.81%);
   border: 2px solid #FFFFFF;
 }
+
+.main__paypal{
+  width: 300px;
+  height: 117px;
+  position: absolute;
+  left: 1225px;
+  top: 820px;
+}
 @keyframes nftimage-move {
   0% { 
     

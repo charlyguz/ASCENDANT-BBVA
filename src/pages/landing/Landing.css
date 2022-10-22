@@ -32,7 +32,7 @@
     margin-bottom: 1rem;
   }
   
-  body {
+  body > .section__hero{
     margin: 0;
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
       Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
@@ -41,7 +41,7 @@
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ;
+    /* background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ; */
   }  
   /* SECTION HERO START */
   .section__hero {
@@ -312,34 +312,35 @@ border-color: transparent;
 .section__beneficios {
     margin-bottom: 100px;
     height: 1200px;
-    width: 100%;
+    width: 1200 px;
+    margin: 0 auto;
 }
 .section__beneficios-boxes{
-    position: relative;
-    width: 1450px;
-    height: 458px;
-    top: 200px;
+  position: relative;
+  display: flex;
+  width: 1200px;
+  height: 458px;
+  top: 200px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+    margin: 0 auto;
 }
 .section__beneficios-container1 {
     display: flex;
-    position: absolute;
-    width: 1450px;
+    width: 350px;
     height: 458px;
-    left: -550px;
+
 }
 .section__beneficios-container2 {
     display: flex;
-    position: absolute;
-    width: 1450px;
+    width: 350px;
     height: 458px;
-    left: 600px;
 }
 .section__beneficios-container3 {
-    display: flex;
-    position: absolute;
-    width: 1450px;
+  display: flex;
+    width: 350px;
     height: 458px;
-    left: 1500px;
 }
 
 .section__beneficios-beneficio-box{
@@ -383,8 +384,9 @@ border-color: transparent;
   
 .section__rareza {
     position: relative;
-    width: 100%;
-    height: 1000px;
+    width: 1200 px;
+    margin: 0 auto;
+    height: 1200px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -417,24 +419,48 @@ border-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
 }
-.section__rareza-part1 {
-    position: absolute;
-    width: 824px;
-    height: 742px;
-    background: #867A7A;
-    left: 200px
+.section__rareza-conteiner {
+  position: relative;
+  display: flex;
+  width: 1200px;
+  height: 800px;
+  margin: 0 auto;
+  background-color: transparent;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.section__rareza-part2 {
-    position: absolute;
-    width: 721px;
-    height: 742px;
-    left: 1024px;
-    background: linear-gradient(140.53deg, #4C3A81 -4.03%, #3C3176 117.28%);
-    backdrop-filter: blur(2px);
-    border-radius: 16px;
 
+
+
+.section__rareza-box{
+  display: flex;
+  background: linear-gradient(123.49deg, #4C3A81 52.02%, #3C3176 91.51%);
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  border-radius: 16px;
+  width: 350px;
+  height: 350px;
+  border-radius: 16px;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: flex-start;
+  align-items: center;
 }
+.section__rareza-box-image1{
+  width: 350px;
+  height: 250px;
+  border-radius: 16px;
+}
+.section__rareza-box-text{
+  width: 350px;
+  height: 50px;
+  color: white;
+}
+
 /*SECTION RAREZA ENDS */
 
 
@@ -449,6 +475,8 @@ border-color: transparent;
 }
 
 .section__about-container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .section__about-top {

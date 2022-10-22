@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    color: white;
+  }
+html {
+  /* background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ; */
+
+}
+
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+body > .wsection1{
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background: red;
+}  
+
+.wsection1{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.wsection1__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.wsection1__tittle{
+  position: absolute;
+  width: 628px;
+  height: 277px;
+  left: 118px;
+  top: 150px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+
+  background: linear-gradient(95.13deg, #E03DD3 -3.77%, #D741CE 18.37%, #BD91E4 39.16%, #A9C0EE 63.28%, #8EDAE2 88.11%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  }
+.wsection1__image1{
+ 
+}
+.wsection1__container2{
+  position: relative;
+  height: 70%;
+  left: 400px;
+  top: 0;
+}
+.wsection1__button{
+  position: absolute;
+  width: 264px;
+  height: 71px;
+  left: 118px;
+  top: 600px;
+  font-weight: 200;
+  font-size: 30px;
+  background: linear-gradient(90deg, #5E3EA4 0%, #4851A0 22%, #256E98 37.09%, #177895 52.19%, #3C5C9E 73.09%, #623DA7 100%);
+  border-radius: 25px;
+
+}
+.wsection1__button:active{
+  background: linear-gradient(91.93deg, #467CB3 0%, #663E9F 102.81%);
+  border: 2px solid #FFFFFF;
+}
+.wsection1__p{
+  position: absolute;
+  width: 598px;
+  height: 194px;
+  left: 118px;
+  top: 390px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+
+
+.wsection2{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin-bottom: 200px;
+}
+.wsection2__title{
+  position: relative;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #C9A5E9;
+
+}
+.wsection2__p{
+  position: relative;
+  left: 100px;
+  height: 800px;
+  width: 70%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 61px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+  }
+
+
+
+.wsection3{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+.wsection3__img{
+  position: relative;
+  top: 50px;
+  width: 500px;
+  height: 500px;
+}
+.wsection3__tittle{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFF504;
+}
+.wsection3__p1{
+  width: 50%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 48px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.wsection3__h2{
+  position: relative;
+  top: 50px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 77px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  background: linear-gradient(90.57deg, #1D87BF 16.73%, #1695AA 55.05%, #052C5A 114.78%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+
+}

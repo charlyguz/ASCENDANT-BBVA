@@ -1,12 +1,35 @@
 import React from "react";
 import "./Mint.css";
 import Navbar from "../global components/navbar/Navbar";
+import PaypalCheckoutButton from "../credit card/PaypalCheckoutButton";
 
 function Mint() {
+    const order = {
+        customer : '12345',
+        total: '50.00',
+        items: [
+            {
+                sku: '12',
+                name: 'NFT Cat',
+                price: '14.00',
+                currency: 'USD',
+                quantity: 1,
+            },
+            {
+                sku: '13',
+                name: 'NFT Dog',
+                price: '18.00',
+                currency: 'USD',
+                quantity: 2,
+            }
+        ]
+}
     return (
+
+        
     <React.Fragment>
         <Navbar/>
-   
+        <div className="mint__container-general">
         <main className="main">
             <div className="main__NFTcontainer">
                 <img src={require("../../assets/NFTprueba.png")} className="main__nftimage-1" alt=""/>
@@ -32,7 +55,12 @@ function Mint() {
                 
             </div>
             <button className="main__button-mint">Mint Now</button>
+            <div className="main__paypal">
+                <PaypalCheckoutButton order={order} />
+            </div>
         </main>
+        
+        </div>
     </React.Fragment>
   );
 }

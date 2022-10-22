@@ -1,29 +1,29 @@
 import React from "react";
-import "./CC.css";
+import "./TCC.css";
 import Navbar from "../global components/navbar/Navbar";
 
 import PaypalCheckoutButton from "./PaypalCheckoutButton";
 
-function CC() {
-    const order = {
-        customer : '12345',
-        total: '50.00',
-        items: [
-            {
-                sku: '12',
-                name: 'NFT Cat',
-                price: '14.00',
-                currency: 'USD',
-                quantity: 1,
-            },
-            {
-                sku: '13',
-                name: 'NFT Dog',
-                price: '18.00',
-                currency: 'USD',
-                quantity: 2,
-            }
-        ]
+    function CC() {
+        const order = {
+            customer : '12345',
+            total: '50.00',
+            items: [
+                {
+                    sku: '12',
+                    name: 'NFT Cat',
+                    price: '14.00',
+                    currency: 'USD',
+                    quantity: 1,
+                },
+                {
+                    sku: '13',
+                    name: 'NFT Dog',
+                    price: '18.00',
+                    currency: 'USD',
+                    quantity: 2,
+                }
+            ]
     }
     return(
         <React.Fragment>

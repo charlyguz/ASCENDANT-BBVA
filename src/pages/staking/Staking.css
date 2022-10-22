@@ -1,13 +1,6 @@
-*{
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-    margin: 0;
-    padding: 0;
-}
+
 body{
-    background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ;
+    background: blue;
 }
 .main-staking{
     display: flex;
@@ -95,9 +88,11 @@ body{
     justify-content: space-between;
 }
 .niv1{
-    width: 45%;
-    height: 300px;
-    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
     background-color: #fff;
     display: flex;
     flex-wrap: nowrap;
@@ -108,9 +103,11 @@ body{
     
 }
 .niv2{
-    width: 45%;
-    height: 300px;
-    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
     background-color: #fff;
     display: flex;
     flex-wrap: nowrap;
@@ -120,9 +117,11 @@ body{
     justify-content: center;
 }
 .niv3{
-    width: 45%;
-    height: 300px;
-    clip-path: polygon(100% 0, 0 0, 50% 100%);
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
     background-color: #fff;
     display: flex;
     flex-wrap: nowrap;

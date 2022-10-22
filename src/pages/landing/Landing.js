@@ -9,6 +9,7 @@ function Landing() {
         
         <React.Fragment>
             <Navbar/>
+            <div className="landing__container-general">
              <main className="main">
                 <section className="section_hero">
                     <div className="section__hero--left">
@@ -179,7 +180,7 @@ function Landing() {
                                         alt=""
                                     />
                                     </div>
-                                        <div className="section__beneficios-beneficio-text">
+                                    <div className="section__beneficios-beneficio-text">
                                         <h3 className="section__beneficios-beneficio-text--tile">Wallet BBVA</h3>
                                         <p className="section__beneficios-beneficio-text--description">
                                             Guarda de forma segura tus crypto
@@ -190,15 +191,62 @@ function Landing() {
                         </div>
                 </section>
 
-                    <section className="section__rareza">
-                        <h2 className="subtitle3">Rareza</h2>
-                            <div className="section__rareza-part1">
-
+                <section className="section__rareza">
+                    <h2 className="subtitle3">Rareza</h2>
+                        <div className="section__rareza-conteiner">
+                            <div className="section__rareza-box">
+                                <img
+                                    className="section__rareza-box-image1"
+                                    src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
+                                    alt=""
+                                />
+                                <div className="section__rareza-box-text"> <p className="section__rareza-box-text">Comunsssssssssssssssssssssssssssssss</p> </div>
+                                
                             </div>
-                            <div className="section__rareza-part2">
-
+                        <div className="section__rareza-box">
+                                <img
+                                    className="section__rareza-box-image1"
+                                    src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
+                                    alt=""
+                                />
+                                <p className="section__rareza-box-text">Comun</p>
                             </div>
-                    </section>
+                            <div className="section__rareza-box">
+                                <img
+                                    className="section__rareza-box-image1"
+                                    src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
+                                    alt=""
+                                />
+                                <p className="section__rareza-box-text">Comun</p>
+                            </div>
+                            <div className="section__rareza-box">
+                                <img
+                                    className="section__rareza-box-image1"
+                                    src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
+                                    alt=""
+                                />
+                                <p className="section__rareza-box-text">Comun</p>
+                            </div>
+                            <div className="section__rareza-box">
+                                <img
+                                    className="section__rareza-box-image1"
+                                    src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
+                                    alt=""
+                                />
+                                <p className="section__rareza-box-text">Comun</p>
+                            </div>
+                            <div className="section__rareza-box">
+                                <img
+                                    className="section__rareza-box-image1"
+                                    src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
+                                    alt=""
+                                />
+                                <p className="section__rareza-box-text">Comun</p>
+                            </div>
+                        </div>
+                        
+
+                </section>
 
 
                 <section className="section__about container" id="roadmap">
@@ -279,7 +327,8 @@ function Landing() {
 
             </main>
             
-            <Footer />
+            {/* <Footer /> */}
+            </div>
         </React.Fragment>
     );
 }

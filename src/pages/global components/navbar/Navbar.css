@@ -16,7 +16,7 @@
     display: flex;
     height: 100px;
     weight: 100%;
-    background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%);
+    background: transparent;
     /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%); */
     color: #ffffff;
     font-family: 'Inter', sans-serif;
@@ -60,7 +60,6 @@
     display: flex;
     margin: 0px 15px;
     font-size: 16px;
-    color: #fff;
     text-decoration: none;
     align-self: center;
     align-items: center;
