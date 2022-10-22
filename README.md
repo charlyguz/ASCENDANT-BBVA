@@ -1,4 +1,4 @@
-[![baf62ef0-88ba-44a8-87fe-9c5ab5959171.jpg](https://i.postimg.cc/fW3nSzjJ/baf62ef0-88ba-44a8-87fe-9c5ab5959171.jpg)]
+![baf62ef0-88ba-44a8-87fe-9c5ab5959171.jpg](https://i.postimg.cc/fW3nSzjJ/baf62ef0-88ba-44a8-87fe-9c5ab5959171.jpg)
 
 
 # CryptoBlueberry
@@ -55,12 +55,12 @@ El usuario canjeará sus cajas de regalo entrando al dashboard en nuestra dapp, 
  
 
 # Ecosistema 
-[![Whats-App-Image-2022-10-22-at-9-46-16-AM.jpg](https://i.postimg.cc/BZN2FH6P/Whats-App-Image-2022-10-22-at-9-46-16-AM.jpg)]
+![Whats-App-Image-2022-10-22-at-9-46-16-AM.jpg](https://i.postimg.cc/BZN2FH6P/Whats-App-Image-2022-10-22-at-9-46-16-AM.jpg)
 
 
 
 ## Landing Page
-[![Whats-App-Image-2022-10-21-at-8-46-45-PM.jpg](https://i.postimg.cc/wvdf12wx/Whats-App-Image-2022-10-21-at-8-46-45-PM.jpg)]
+![Whats-App-Image-2022-10-21-at-8-46-45-PM.jpg](https://i.postimg.cc/wvdf12wx/Whats-App-Image-2022-10-21-at-8-46-45-PM.jpg)
 
 
 
@@ -70,7 +70,7 @@ pendiente
 
 # Hipoteca                                           
 
-[![digital-world-nft-illustration-concept-flat-illustration-isolated-on-white-background-vector.jpg](https://i.postimg.cc/y6D3bRBn/digital-world-nft-illustration-concept-flat-illustration-isolated-on-white-background-vector.jpg)]
+![digital-world-nft-illustration-concept-flat-illustration-isolated-on-white-background-vector.jpg](https://i.postimg.cc/y6D3bRBn/digital-world-nft-illustration-concept-flat-illustration-isolated-on-white-background-vector.jpg)
 Ahora puedes dejar tu NFT como aval en el proceso de solicitud de prestamos o créditos.
 
 
