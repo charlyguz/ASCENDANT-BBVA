@@ -3,10 +3,10 @@ import Footer from "../global components/footer/Footer";
 import Navbar from "../global components/navbar/Navbar";
 import "./Staking.css";
 
-function Staking(){
+function Staking({ account, setAccount }){
     return(
         <React.Fragment>
-            <Navbar/>
+            <Navbar account={account} setAccount={setAccount}/>
             <div className="hipoteca__container-general">
                 <div className="main-staking">
                         <div className="beneficios-container">
