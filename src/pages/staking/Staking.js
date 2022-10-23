@@ -6,13 +6,8 @@ import "./Staking.css";
 function Staking({ account, setAccount }){
     return(
         <React.Fragment>
-<<<<<<< HEAD
-            <Navbar/>
-            <div className="staking__container-general">
-=======
             <Navbar account={account} setAccount={setAccount}/>
             <div className="hipoteca__container-general">
->>>>>>> 6d19d2f0c1c0bffe190ebfb7072c5c6c8ac70d40
                 <div className="main-staking">
                         <div className="beneficios-container">
                             <div className="beneficios-container-items">
