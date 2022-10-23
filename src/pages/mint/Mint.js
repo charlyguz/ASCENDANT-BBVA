@@ -3,9 +3,10 @@ import { ethers, BigNumber } from 'ethers';
 import "./Mint.css";
 import Navbar from "../global components/navbar/Navbar";
 import PaypalCheckoutButton from "../credit card/PaypalCheckoutButton";
-// import ABI from '../contract/ABI.json';
-const CONTRACTAddress = "";
-const ABI = 'das';
+import ABI from '../../contracts/ABI.json';
+const CONTRACTAddress = "0xAeB702F008536B31E207c572669F0BcB3c4Fa119";
+
+// const ABI = 'das';
 function Mint({ account, setAccount }) {
     const [mintAmount, setMintAmount] = useState(0);
     const order = {
@@ -39,7 +40,8 @@ function Mint({ account, setAccount }) {
             signer
           );
           try {
-            const response = await contract.mint(BigNumber.from(mintAmount), {value: ethers.utils.parseEther((0.033 * mintAmount).toString()),});
+            // const response = await contract.mint(BigNumber.from(mintAmount), {value: ethers.utils.parseEther((0.033 * mintAmount).toString()),});
+            const response = await contract.mint(BigNumber.from(mintAmount));
             console.log('response: ', response);
           } catch (err) {
             console.log("error: ", err)
