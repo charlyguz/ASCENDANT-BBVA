@@ -47,8 +47,8 @@ const CheckoutForm = () => {
     }
 
     return <form onSubmit={handleSubmit} className="card card-body">
-        <img src={require("../../assets/ascendent.png")} alt="ascendent" className="img-fluid" />
-        <h3 className="text-center text-dark">Price: 10$</h3>
+        {/* <img src={require("../../assets/ascendent.png")} alt="ascendent" className="img-fluid" />
+        <h3 className="text-center text-dark">Price: 10$</h3> */}
         <div className="form-group">
             <CardElement className="form-control my-4" />
         </div>
