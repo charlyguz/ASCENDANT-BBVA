@@ -1,13 +1,13 @@
 ![baf62ef0-88ba-44a8-87fe-9c5ab5959171.jpg](https://i.postimg.cc/fW3nSzjJ/baf62ef0-88ba-44a8-87fe-9c5ab5959171.jpg)
 
-
+aqui esta el link a nuestra [pagina](https://acendant.netlify.app/)  https://acendant.netlify.app
 # CryptoBlueberry
 
 *El inicio de una nueva Era digital*
 
 En CryptoBlueberry desarrollamos una forma de  comunicar el mundo real con la web3 además de crear una comunidad que goza de tener acceso a beneficios especiales que  da el  comprar un NFT de la colección BBVA por medio de su banca móvil.
 # Contenido
-
+- [pagina](https://acendant.netlify.app/)
 - [vídeo](#vídeo)
 - [Tutorial](#Tutorial)
 - [AIRDROPS](#AIDROPS)
