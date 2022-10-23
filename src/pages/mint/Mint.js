@@ -1,4 +1,4 @@
-import React, { useState }, { useState } from "react";
+import React, { useState } from "react";
 import { ethers, BigNumber } from 'ethers';
 import "./Mint.css";
 import "bootswatch/dist/flatly/bootstrap.min.css";
@@ -7,7 +7,8 @@ import PaypalCheckoutButton from "../credit card/PaypalCheckoutButton";
 import { loadStripe } from '@stripe/stripe-js';
 import { Elements, CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
 import axios from "axios";
-
+import abi from '../../contracts/CryptoBlueBerry.json';
+const CONTRACTAddress = "0x2347C1DB57cF4f1557b97b13f5A9B467ddbA6145";
 const stripePromise = loadStripe("pk_test_51LvKUxHJpuPbpMgxiKFeC7ZO0mZ11LCeqZlcssqIl0glO5D5xS24fefDr0REoKfzUNEE8XzUgLJX5yLrlmu2i7cv00ZbiI0PqK")
 
 const CheckoutForm = () => {
@@ -59,8 +60,7 @@ const CheckoutForm = () => {
         </button>
     </form>
 }
-import ABI from '../../contracts/ABI.json';
-const CONTRACTAddress = "0xAeB702F008536B31E207c572669F0BcB3c4Fa119";
+
 
 // const ABI = 'das';
 function Mint({ account, setAccount }) {
@@ -92,7 +92,7 @@ function Mint({ account, setAccount }) {
           const signer = provider.getSigner();
           const contract = new ethers.Contract(
             CONTRACTAddress,
-            ABI.abi,
+            abi.abi,
             signer
           );
           try {
@@ -120,9 +120,9 @@ function Mint({ account, setAccount }) {
         <div className="mint__container-general">
         <main className="main">
             <div className="main__NFTcontainer">
-                <img src={require("../../assets/NFTprueba.png")} className="main__nftimage-1" alt=""/>
-                <img src={require("../../assets/NFTprueba.png")} className="main__nftimage-3" alt=""/>
-                <img src={require("../../assets/NFTprueba.png")} className="main__nftimage-2" alt=""/>
+                <img src={require("../../assets/uno.gif")} className="main__nftimage-1" alt=""/>
+                <img src={require("../../assets/dos.gif")} className="main__nftimage-3" alt=""/>
+                <img src={require("../../assets/tres.gif")} className="main__nftimage-2" alt=""/>
             </div>
             <div className="main__title">
                 <h3>Bank pets</h3>
