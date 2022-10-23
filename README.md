@@ -12,7 +12,7 @@ En CryptoBlueberry desarrollamos una forma de  comunicar el mundo real con la we
 - [Tutorial](#Tutorial)
 - [AIRDROPS](#AIDROPS)
 - [Ecosistema](#Ecosistema)
-- [ColecciónBBVA](#ColecciónBBVA)
+- [Colección](#Colección)
 - [Empeño](#Empeño)
 
 
