@@ -126,16 +126,16 @@ function Mint({ account, setAccount }) {
                     <img src={require("../../assets/tres.gif")} className="main__nftimage-2" alt=""/>
                 </div>
                 <div className="main__title">
-                    <h3>Bank pets</h3>
+                    <h3>ACENDANT BBVA</h3>
                 </div>
                 <div className="main__subtitle">
                     <h4>El futuro esta a nuestro alcance</h4>
                 </div>
                 <div className="main__text">
-                    <h1>Lorem Ipsum is simply dummy text of the printing and  </h1>
-                    <p>El futuro esta a nuestro alcance  <br/> 
-                    El futuro esta a nuestro alcance  <br/>
-                    El futuro esta a nuestro alcance</p>
+                    <h1>COMPRA AHORA TUS NFT'S</h1>
+                    <p>NFT'S TOTALES 888<br/> 
+                    Costo: .0006 eth <br/>
+                    </p>
                 </div>
                 <div className="main__button-container">
                     <button className="main__button-minus"  onClick={handleDecrement}>-</button>
