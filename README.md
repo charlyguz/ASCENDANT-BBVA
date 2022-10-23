@@ -9,13 +9,12 @@ En CryptoBlueberry desarrollamos una forma de  comunicar el mundo real con la we
 # Contenido
 
 - [vídeo](#vídeo)
-- [Servicios](#Servicios)
-- [Roadmap](#Roadmap)
+- [Tutorial](#Tutorial)
 - [AIRDROPS](#AIDROPS)
 - [Ecosistema](#Ecosistema)
-- [Colección BBVA](#colección BBVA)
-- [Hipoteca](#Hipoteca)
-- [Tutorial para primerizos](#Tutorial)
+- [Colección](#Colección)
+- [Empeño](#Empeño)
+
 
 # Video
 
@@ -26,7 +25,10 @@ En CryptoBlueberry desarrollamos una forma de  comunicar el mundo real con la we
 ![Whats-App-Image-2022-10-23-at-1-09-08-AM.jpg](https://i.postimg.cc/WbyskWk1/Whats-App-Image-2022-10-23-at-1-09-08-AM.jpg)
 
 # Colección BBVA
-(aqui insertar gif de la coleccion)
+
+![Whats-App-Image-2022-10-23-at-9-32-41-AM-1.jpg](https://i.postimg.cc/R0NtNTsN/Whats-App-Image-2022-10-23-at-9-32-41-AM-1.jpg)    ![Whats-App-Image-2022-10-23-at-9-32-41-AM.jpg](https://i.postimg.cc/9Q4X9N25/Whats-App-Image-2022-10-23-at-9-32-41-AM.jpg)   
+
+![b06fdb8c-b13f-4bcd-a332-f6209a3b16ec.jpg](https://i.postimg.cc/y8vVw4TZ/b06fdb8c-b13f-4bcd-a332-f6209a3b16ec.jpg)    ![57b11705-f61c-43e6-b055-6bba77249297.jpg](https://i.postimg.cc/G3FnWnLm/57b11705-f61c-43e6-b055-6bba77249297.jpg)
 
 Con la colección ACENDANT BBVA, el usuario tendrá acceso a los siguientes beneficios:
 - Comunidad de Discord con canales privados donde podrá aprender sobre ntf's, crypto, finanzas, acciones, y bienes raíces.
@@ -65,11 +67,11 @@ El usuario canjeará sus cajas de regalo entrando al dashboard en nuestra dapp, 
 
 
 
-## Tutorial
+## Wallet
 
-pendiente
 
-# Hipoteca                                           
+
+# Empeño                                           
 
 ![digital-world-nft-illustration-concept-flat-illustration-isolated-on-white-background-vector.jpg](https://i.postimg.cc/y6D3bRBn/digital-world-nft-illustration-concept-flat-illustration-isolated-on-white-background-vector.jpg)
 Ahora puedes dejar tu NFT como aval en el proceso de solicitud de prestamos o créditos.
