@@ -65,7 +65,7 @@ El usuario canjeará sus cajas de regalo entrando al dashboard en nuestra dapp, 
 
 
 ## Wallet
-![Whats-App-Image-2022-10-21-at-8-46-45-PM.jpg](https://i.postimg.cc/wvdf12wx/Whats-App-Image-2022-10-21-at-8-46-45-PM.jpg)
+![Whats-App-Image-2022-10-23-at-9-54-30-AM.jpg](https://i.postimg.cc/63n6bH52/Whats-App-Image-2022-10-23-at-9-54-30-AM.jpg)
 
 
 
