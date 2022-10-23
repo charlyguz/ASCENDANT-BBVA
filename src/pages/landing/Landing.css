@@ -286,7 +286,8 @@ border-color: transparent;
   height: 458px;
   margin: 0 auto;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-row:250px;
+  grid-template-rows:250px;
+  gap: 30px;
 }
 .subtitle2{
   font-family: 'Inter';
@@ -319,14 +320,16 @@ border-color: transparent;
 
 }
 .section__beneficios-container1 {
-  height: 100%;
+width: 100%;
   height: 100%;
 }
 .section__beneficios-container2 {
   height: 100%;
+  width: 100%;
 }
 .section__beneficios-container3 {
   height: 100%;
+  width: 100%;
 }
 
 .section__beneficios-beneficio-box{
