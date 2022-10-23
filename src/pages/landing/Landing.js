@@ -3,12 +3,12 @@ import "./Landing.css";
 import Navbar from "../global components/navbar/Navbar";
 import Footer from "../global components/footer/Footer";
 
-function Landing() {
+function Landing({account,setAccount}) {
     
     return (
         
         <React.Fragment>
-            <Navbar/>
+            <Navbar account={account} setAccount={setAccount}/>
             <div className="landing__container-general">
              <main className="main">
                 <section className="section_hero">
