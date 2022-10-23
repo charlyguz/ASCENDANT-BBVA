@@ -26,7 +26,7 @@ En CryptoBlueberry desarrollamos una forma de  comunicar el mundo real con la we
 
 # Colección BBVA
 
-
+![Whats-App-Image-2022-10-23-at-9-32-41-AM-1.jpg](https://i.postimg.cc/R0NtNTsN/Whats-App-Image-2022-10-23-at-9-32-41-AM-1.jpg)          ![Whats-App-Image-2022-10-23-at-9-32-41-AM.jpg](https://i.postimg.cc/9Q4X9N25/Whats-App-Image-2022-10-23-at-9-32-41-AM.jpg)
 
 Con la colección ACENDANT BBVA, el usuario tendrá acceso a los siguientes beneficios:
 - Comunidad de Discord con canales privados donde podrá aprender sobre ntf's, crypto, finanzas, acciones, y bienes raíces.
