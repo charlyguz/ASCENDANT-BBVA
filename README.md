@@ -10,12 +10,12 @@ En CryptoBlueberry desarrollamos una forma de  comunicar el mundo real con la we
 
 - [vídeo](#vídeo)
 - [Servicios](#Servicios)
-- [Roadmap](#Roadmap)
+- [Tutorial](#Tutorial)
 - [AIRDROPS](#AIDROPS)
 - [Ecosistema](#Ecosistema)
 - [Colección BBVA](#colección BBVA)
 - [Hipoteca](#Hipoteca)
-- [Tutorial para primerizos](#Tutorial)
+
 
 # Video
 
@@ -26,7 +26,8 @@ En CryptoBlueberry desarrollamos una forma de  comunicar el mundo real con la we
 ![Whats-App-Image-2022-10-23-at-1-09-08-AM.jpg](https://i.postimg.cc/WbyskWk1/Whats-App-Image-2022-10-23-at-1-09-08-AM.jpg)
 
 # Colección BBVA
-(aqui insertar gif de la coleccion)
+
+
 
 Con la colección ACENDANT BBVA, el usuario tendrá acceso a los siguientes beneficios:
 - Comunidad de Discord con canales privados donde podrá aprender sobre ntf's, crypto, finanzas, acciones, y bienes raíces.
