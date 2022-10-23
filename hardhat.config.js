@@ -2,7 +2,6 @@ require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 
 
-/** @type import('hardhat/config').HardhatUserConfig */
 const apiKey = process.env.ETHERSCAN_API_KEY;
 const key = process.env.PRIVATE_KEY;
 const key2 = process.env.PRIVATE_KEY2;

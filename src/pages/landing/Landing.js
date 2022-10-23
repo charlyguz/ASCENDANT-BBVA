@@ -81,11 +81,11 @@ function Landing({account,setAccount}) {
                             <div className="section__services-container">
                             <div className="section__services-service-box">
                                 <div className="section__services-service-image-box">
-                                <img
+                                {/* <img
                                     className="section__services-service-image"
                                     src={require("https://img.freepik.com/vector-gratis/ilustracion-concepto-lider_114360-7479.jpg?w=1380&t=st=1665976808~exp=1665977408~hmac=0c31298e514441587e7088592f00dddb6cf3bf29fc6f1df9f28d9abd0820c21a").default}
                                     alt=""
-                                />
+                                /> */}
                                 </div>
                 
                                 <div className="section__services-service-text">
@@ -100,11 +100,11 @@ function Landing({account,setAccount}) {
                 
                         <div className="section__services-service-box">
                             <div className="section__services-service-image-box">
-                            <img
+                            {/* <img
                                 className="section__services-service-image"
                                 src={require("https://as2.ftcdn.net/v2/jpg/03/02/44/69/1000_F_302446920_P7lGowlNkC4Del9xdEL5K4hujwQHh8Ox.jpg")}
                                 alt=""
-                            />
+                            /> */}
                             </div>
                             <div className="section__services-service-text">
                             <h3 className="section__services-service-text--tile">
@@ -118,11 +118,11 @@ function Landing({account,setAccount}) {
             
                         <div className="section__services-service-box">
                             <div className="section__services-service-image-box">
-                            <img
+                            {/* <img
                                 className="section__services-service-image"
                                 src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
                                 alt=""
-                            />
+                            /> */}
                             </div>
                             <div className="section__services-service-text">
                             <h3 className="section__services-service-text--tile">Wallet BBVA</h3>
@@ -141,11 +141,11 @@ function Landing({account,setAccount}) {
                                 <div className="section__beneficios-container1">
                                     <div className="section__beneficios-beneficio-box">
                                         <div className="section__beneficios-beneficio-image-box">
-                                        <img
+                                        {/* <img
                                             className="section__beneficios-beneficio-image"
-                                            src={require("https://img.freepik.com/vector-gratis/ilustracion-concepto-lider_114360-7479.jpg?w=1380&t=st=1665976808~exp=1665977408~hmac=0c31298e514441587e7088592f00dddb6cf3bf29fc6f1df9f28d9abd0820c21a")}
+                                            // src={require("https://img.freepik.com/vector-gratis/ilustracion-concepto-lider_114360-7479.jpg?w=1380&t=st=1665976808~exp=1665977408~hmac=0c31298e514441587e7088592f00dddb6cf3bf29fc6f1df9f28d9abd0820c21a")}
                                             alt=""
-                                        />
+                                        /> */}
                                         </div>
 
                                         <div className="section__beneficios-beneficio-text">
@@ -161,11 +161,11 @@ function Landing({account,setAccount}) {
                             <div className="section__beneficios-container2">
                                 <div className="section__beneficios-beneficio-box">
                                     <div className="section__beneficios-beneficio-image-box">
-                                    <img
+                                    {/* <img
                                         className="section__beneficios-beneficio-image"
                                         src={require("https://as2.ftcdn.net/v2/jpg/03/02/44/69/1000_F_302446920_P7lGowlNkC4Del9xdEL5K4hujwQHh8Ox.jpg")}
                                         alt=""
-                                    />
+                                    /> */}
                                     </div>
                                     <div className="section__beneficios-beneficio-text">
                                     <h3 className="section__beneficios-beneficio-text--tile">
@@ -181,11 +181,11 @@ function Landing({account,setAccount}) {
                             <div className="section__beneficios-container3">
                                 <div className="section__beneficios-beneficio-box">
                                     <div className="section__beneficios-beneficio-image-box">
-                                        <img
+                                        {/* <img
                                             className="section__beneficios-beneficio-image"
                                             src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
                                             alt=""
-                                        />
+                                        /> */}
                                         </div>
                                         <div className="section__beneficios-beneficio-text">
                                             <h3 className="section__beneficios-beneficio-text--tile">Wallet BBVA</h3>
@@ -202,52 +202,52 @@ function Landing({account,setAccount}) {
                         <h2 className="subtitle3">Rareza</h2>
                             <div className="section__rareza-conteiner">
                                 <div className="section__rareza-box">
-                                    <img
+                                    {/* <img
                                         className="section__rareza-box-image1"
                                         src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
                                         alt=""
-                                    />
+                                    /> */}
                                     <div className="section__rareza-box-text"> <p className="section__rareza-box-text">Comunsssssssssssssssssssssssssssssss</p> </div>
                                     
                                 </div>
                                 <div className="section__rareza-box">
-                                    <img
+                                    {/* <img
                                         className="section__rareza-box-image1"
                                         src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
                                         alt=""
-                                    />
+                                    /> */}
                                     <p className="section__rareza-box-text">Comun</p>
                                 </div>
                                 <div className="section__rareza-box">
-                                    <img
+                                    {/* <img
                                         className="section__rareza-box-image1"
                                         src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
                                         alt=""
-                                    />
+                                    /> */}
                                     <p className="section__rareza-box-text">Comun</p>
                                 </div>
                                 <div className="section__rareza-box">
-                                    <img
+                                    {/* <img
                                         className="section__rareza-box-image1"
                                         src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
                                         alt=""
-                                    />
+                                    /> */}
                                     <p className="section__rareza-box-text">Comun</p>
                                 </div>
                                 <div className="section__rareza-box">
-                                    <img
+                                    {/* <img
                                         className="section__rareza-box-image1"
                                         src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
                                         alt=""
-                                    />
+                                    /> */}
                                     <p className="section__rareza-box-text">Comun</p>
                                 </div>
                                 <div className="section__rareza-box">
-                                    <img
+                                    {/* <img
                                         className="section__rareza-box-image1"
                                         src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
                                         alt=""
-                                    />
+                                    /> */}
                                     <p className="section__rareza-box-text">Comun</p>
                                 </div>
                             </div>
