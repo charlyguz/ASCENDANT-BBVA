@@ -7,13 +7,13 @@ function Staking(){
     return(
         <React.Fragment>
             <Navbar/>
-            <div className="hipoteca__container-general">
+            <div className="staking__container-general">
                 <div className="main-staking">
                         <div className="beneficios-container">
                             <div className="beneficios-container-items">
+                                <img src={require("../../assets/money-incoming.png")} alt="staking"/>
                                 <p>BBVA TAMBIEN OFRECE STAKING</p>
                             </div>
-                            
                         </div>
                         <div className="triangle-container">
                             <div className="triangle-container-items">

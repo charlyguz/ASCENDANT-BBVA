@@ -5,6 +5,7 @@ import Landing from './pages/landing/Landing.js';
 import Mint from './pages/mint/Mint.js';
 import CC from './pages/credit card/TCC.js';
 import Wallet from './pages/wallet/Wallet.js';
+import Claim from './pages/claim/Claim';
 import {BrowserRouter as Router,
   Routes,
   Route,} from "react-router-dom"
@@ -22,6 +23,7 @@ function App() {
         <Route path="/tcc" element={<CC />} ></Route>
         <Route path="/wallet" element={<Wallet />} ></Route>
         <Route path="/hipoteca" element={<Hipoteca />} ></Route>
+        <Route path="/claim" element={<Claim />} ></Route>
       </Routes>
     </Router>
   );
