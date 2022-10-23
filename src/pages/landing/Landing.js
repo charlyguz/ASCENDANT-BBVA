@@ -76,7 +76,7 @@ function Landing({account,setAccount}) {
                     <section className="section__services" id="services">
                             <div className="text__services">
                                 <h2 className="subtitle">ACENDANT BBVA</h2>
-                                <p className="p-descript">BENEFICIOS DE LA COLECCION</p>
+                                <p className="p-descript">BENEFICIOS DE LA COLECCION PADRE</p>
                             </div> 
                             <div className="section__services-container">
                             <div className="section__services-service-box">
@@ -93,7 +93,7 @@ function Landing({account,setAccount}) {
                                         Staking
                                     </h3>
                                     <p className="section__services-service-text--description">
-                                        Protege, invierte y transfiere tu dinero de una manera segura
+                                        Deja tu NFT bloqueado con nostros para poder generar ingresos pasivos
                                     </p>
                                 </div>
                             </div>
@@ -108,10 +108,10 @@ function Landing({account,setAccount}) {
                             </div>
                             <div className="section__services-service-text">
                             <h3 className="section__services-service-text--tile">
-                                Mint
+                            Comunidad de Discord
                             </h3>
                             <p className="section__services-service-text--description">
-                                hace cosas XD
+                                En este Servidor tendras a la mano y de facil acceso toda la informacion para poder aprender sobre el mundo web3 y NFT
                             </p>
                             </div>
                         </div>
@@ -125,9 +125,9 @@ function Landing({account,setAccount}) {
                             />
                             </div>
                             <div className="section__services-service-text">
-                            <h3 className="section__services-service-text--tile">Wallet BBVA</h3>
+                            <h3 className="section__services-service-text--tile">Personaliza tu TDC</h3>
                             <p className="section__services-service-text--description">
-                                Guarda de forma segura tus crypto
+                            Personalización de su tarjeta de crédito con su NFT, con la cual tendrá puntos dobles.
                             </p>
                             </div>
                         </div>
@@ -135,8 +135,8 @@ function Landing({account,setAccount}) {
                     </section>
 
                     <section className="section__beneficios" id="beneficios"> 
-                        <h2 className="subtitle2">Beneficios</h2>
-                        <p className="p-descript2">Obtenga sus puntos BBVA al mantener sus nfts </p>
+                        <h2 className="subtitle2">Ecosistema BBVA</h2>
+                        <p className="p-descript2">Obtenga beneficios de colecciones quemables BBVA al mantener sus nfts </p>
                         <div className="section__beneficios-boxes">
                                 <div className="section__beneficios-container1">
                                     <div className="section__beneficios-beneficio-box">
@@ -150,10 +150,10 @@ function Landing({account,setAccount}) {
 
                                         <div className="section__beneficios-beneficio-text">
                                             <h3 className="section__beneficios-beneficio-text--tile">
-                                                Staking
+                                                Wallet
                                             </h3>
                                             <p className="section__beneficios-beneficio-text--description">
-                                                Protege, invierte y transfiere tu dinero de una manera segura
+                                                Es un wallet que te permite almacenar tus NFTs y tokens de forma segura y confiable, ya que todo lo que tu firmes sera respaldado con tus datos biometricos
                                             </p>
                                         </div>
                                     </div>
@@ -169,10 +169,10 @@ function Landing({account,setAccount}) {
                                     </div>
                                     <div className="section__beneficios-beneficio-text">
                                     <h3 className="section__beneficios-beneficio-text--tile">
-                                        Mint
+                                        Compra con tu TDC
                                     </h3>
                                     <p className="section__beneficios-beneficio-text--description">
-                                        Protege, invierte y transfiere tu dinero de una manera segura
+                                       Podras comprar tus NFTs con tu tarjeta de credito
                                     </p>
                                     </div>
                                 </div>
@@ -188,9 +188,9 @@ function Landing({account,setAccount}) {
                                         />
                                         </div>
                                         <div className="section__beneficios-beneficio-text">
-                                            <h3 className="section__beneficios-beneficio-text--tile">Wallet BBVA</h3>
+                                            <h3 className="section__beneficios-beneficio-text--tile">Empeña tu NFT</h3>
                                             <p className="section__beneficios-beneficio-text--description">
-                                                Guarda de forma segura tus crypto
+                                                Para poder obtener liqidez de forma inmediata podras empeñar tu NFT en la plataforma
                                             </p>
                                         </div>
                                     </div>
@@ -216,7 +216,15 @@ function Landing({account,setAccount}) {
                                         src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
                                         alt=""
                                     />
-                                    <p className="section__rareza-box-text">Comun</p>
+                                    <p className="section__rareza-box-text">Muy Raro</p>
+                                </div>
+                                <div className="section__rareza-box">
+                                    <img
+                                        className="section__rareza-box-image1"
+                                        src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
+                                        alt=""
+                                    />
+                                    <p className="section__rareza-box-text">Raro</p>
                                 </div>
                                 <div className="section__rareza-box">
                                     <img
@@ -232,15 +240,7 @@ function Landing({account,setAccount}) {
                                         src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
                                         alt=""
                                     />
-                                    <p className="section__rareza-box-text">Comun</p>
-                                </div>
-                                <div className="section__rareza-box">
-                                    <img
-                                        className="section__rareza-box-image1"
-                                        src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
-                                        alt=""
-                                    />
-                                    <p className="section__rareza-box-text">Comun</p>
+                                    <p className="section__rareza-box-text">Basico</p>
                                 </div>
                                 <div className="section__rareza-box">
                                     <img
@@ -262,7 +262,7 @@ function Landing({account,setAccount}) {
                             <p className="section__about-description">
                             CryptoBlueberry es una dapp que te permite interactuar con tus NFT en el mundo real y obtener beneficios por ello.
                             </p>
-                            <h3 className="roadmap-title">Roadmap</h3>
+                            <h3 className="roadmap-title">Tutorial</h3>
                         </div>
                         <div className="section__about-container-inner">
                             <div className="roadmap-line"></div>
@@ -270,9 +270,9 @@ function Landing({account,setAccount}) {
                             <div className="section__about-container-inner-grid-item">
                                 <div className="wrap align-right stage-text">
                                 <p className="stage-text-title">Step 1</p>
-                                Puedes dejar tu NFT en STAKING para generar rendimiento <br />
+                                Crea tu Crypto wallet BBVA <br />
                                 <br />
-                                Esto te permite generar ingreso de manera pasiva <br />
+                                Con un solo boton puedes tener tu wallet BBVA para poder interactuar con el mundo de web 3 de manera sencilla basandonos en el proyecto BBVA New-gen de wallet crypto en suiza<br />
                                 </div>
                                 <div className="wrap flex-center ">
                                 <div className="stage">S1</div>
@@ -286,18 +286,18 @@ function Landing({account,setAccount}) {
                                 </div>
                                 <div className="wrap stage-text">
                                 <p className="stage-text-title">Step 2</p>
-                                Sistema de hipoteca por si necesitas un pretamo rapido por tus NFTs <br /> <br />
-                                Puedes recuperar tu NFT en cualquier momento si devuelves el prestamo antes del tiempo establecido <br />
+                                Compra tus NFTs de la coleccion BBVA Ascendant <br /> <br />
+                                Puedes comprar tus NFTs rapido, seguro y accesible para personas que no han toca nada de la web3 <br />
                                 </div>
                             </div>
             
                             <div className="section__about-container-inner-grid-item">
                                 <div className="wrap align-right stage-text">
                                 <p className="stage-text-title">Step 3</p>
-                                Puedes Mintear facilmente
+                                Disfruta de tus beneficios adquiridos
                                 <br />
                                 <br />
-                                Todo esto sin salir de nuestra plataforma, sin mencionar que tiene opcion a implementarse en la app de BBVA
+                                Ya que tienes tus NFTs puedes disfrutar de los beneficios que te ofrece la coleccion padre BBVA Ascendant y los beneficios que te ofrecemos con los airdrops y los eventos que se realizan en la comunidad de discord
                                 </div>
                                 <div className="wrap flex-center ">
                                 <div className="stage">S3</div>
@@ -312,21 +312,24 @@ function Landing({account,setAccount}) {
                         <h2 className="section__about-title">Preguntas frecuentes</h2>
                         <div className="section__faq-container">
                             <div className="section__faq--q">
+                                <h3 className="section__faq--q-title">¿Qué son los colecciones quemables?</h3>
+                                <p className="section__faq--q-description"> Es un regalo que te damos por haber comprado nuestro NFT este sirve para poder canjearlo por beneficios exclusivos que son de mejor calidad entre mas raro te toque estos te llegaran trimestralmente </p>
+                            </div>
+                            <div className="section__faq--q">
                                 <h3 className="section__faq--q-title">¿Qué es Mintear?</h3>
-                                <p className="section__faq--q-description"> no se XD </p>
+                                <p className="section__faq--q-description">Es comprar tus NFTs a traves de un web llamada Mint</p>
                             </div>
                             <div className="section__faq--q">
-                                <h3 className="section__faq--q-title">bob esponja primero tienes que hacer una pregunta</h3>
-                                <p className="section__faq--q-description">¿de que color son mis calzoncillo? procede a golpearlo</p>
+                                <h3 className="section__faq--q-title">¿Qué es un NFT?</h3>
+                                <p className="section__faq--q-description">Es un token no fungible que te hace propietario unico y exclusivo de un objeto virtual </p>
                             </div>
                             <div className="section__faq--q">
-
+                                <h3 className="section__faq--q-title">¿Qué beneficios tienes por comprar nuestro NFT?</h3>
+                                <p className="section__faq--q-description">Desde que tu compras nuestro NFT el usuario tendrá acceso a los siguientes beneficios: Comunidad de Discord con canales privados donde podrá aprender sobre ntf's, crypto, finanzas, acciones, y bienes raíces. Personalización de su tarjeta de crédito con su NFT, con la cual tendrá puntos dobles. Staking.</p>
                             </div>
                             <div className="section__faq--q">
-
-                            </div>
-                            <div className="section__faq--q">
-
+                                <h3 className="section__faq--q-title">¿Como reclamo mis recompensas?</h3>
+                                <p className="section__faq--q-description">Con un solo click en la pagina de canjear podras pedir la recompensa asociada a tu NFT </p>
                             </div>
                         </div>
                     </section>

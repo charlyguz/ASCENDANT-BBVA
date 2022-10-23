@@ -22,7 +22,7 @@ const CheckoutForm = () => {
         const {error, paymentMethod} = await stripe.createPaymentMethod({
             type: 'card',
             card: elements.getElement(CardElement)
-        });  
+        });   
 
         setLoading(true);
 
@@ -144,10 +144,6 @@ function Mint({ account, setAccount }) {
                     
                 </div>
                 <button className="main__button-mint" onClick={handleMint}>Mint Now</button>
-                <div className="main__payment">
-                    <PaypalCheckoutButton order={order} />
-                    
-                </div>
                 <Elements stripe={stripePromise} >
                         <div className="container p-4">
                             <div className="row">

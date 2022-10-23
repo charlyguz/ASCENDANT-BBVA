@@ -1,5 +1,5 @@
 .cc_claim{
-    height: 120vh;
+    height: 150vh;
     background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ;
 }
 .claim__container-general{
@@ -11,10 +11,16 @@
     margin: 0 auto;
     align-items: center;
     justify-content: space-evenly;
-    height: 450px;
+    height: 75vh;
     margin-bottom: 70px;
     max-width: 1200px;
     margin: 0 auto;
+    flex-direction: row;
+}
+.claim__container1-items{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
     flex-direction: column;
 }
 .claim__title{
@@ -37,10 +43,11 @@
 }
 .claim__container2{
     display: flex;
-    margin: 0 auto;
     flex-direction: column;
     margin-bottom: 50px;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .claim__list{
     display: flex;

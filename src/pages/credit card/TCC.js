@@ -74,7 +74,7 @@ import PaypalCheckoutButton from "./PaypalCheckoutButton";
                         </p>
                         <p className="section3__p">
                             El NFT te sera entregador en tu Crypto Wallet BBVA.
-                        </p>
+                        </p> 
                         </div>
                     </div>
                 </section>
