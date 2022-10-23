@@ -2,10 +2,10 @@ import React from "react";
 import Navbar from "../global components/navbar/Navbar";
 import "./Hipoteca.css";
 
-function Hipoteca(){
+function Hipoteca({ account, setAccount }){
     return(
         <React.Fragment>
-        <Navbar/>
+        <Navbar account={account} setAccount={setAccount}/>
         <div className="hipoteca__container-general">
             <section className="hipoteca__section1">
                 <div className="hipoteca__section1__container1">

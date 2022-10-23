@@ -2,10 +2,11 @@ import React from "react";
 import Navbar from "../global components/navbar/Navbar";
 import "./Wallet.css";
 
-function Wallet() {
+function Wallet({ account, setAccount }) {
+    
   return (
     <React.Fragment>
-        <Navbar/>
+        <Navbar account={account} setAccount={setAccount}/>
         <div className="wallet__container-general">
         <section className="wsection1">
             <div className="wsection1__container">

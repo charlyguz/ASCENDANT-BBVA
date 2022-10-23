@@ -1,8 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 
-function Navbar() {
+function Navbar({account,setAccount}) {
+  let isConnected = Boolean(account[0]);
+
+  async function initConnection() {
+    if (window.ethereum) {
+      const accounts = await window.ethereum.request({
+        method: "eth_requestAccounts",
+      });
+      setAccount(accounts);
+      console.log("account ", account);
+    }
+  }
   return (
     <React.Fragment>
       <header className="header">
@@ -94,7 +105,13 @@ function Navbar() {
           </div>
 
           <div className="header__button">
-            <button className="header__button-connect">Connect Wallet</button>
+            {isConnected ? (
+                  <button className="header__button-connect" onClick={initConnection}>Connect Wallet</button>
+                  // <button className="header__button-connect" >Connect Wallet</button>
+                  ) : (
+                    <div className="header__button-connect">CONECTADO</div>
+                    // <div className="header__button-connect"  onClick={initConnection}>{account[0]}</div>
+                  )}
           </div>
         </nav>
       </header>

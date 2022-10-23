@@ -3,8 +3,7 @@ import "./TCC.css";
 import Navbar from "../global components/navbar/Navbar";
 
 import PaypalCheckoutButton from "./PaypalCheckoutButton";
-
-    function CC() {
+    function CC({ account, setAccount }) {
         const order = {
             customer : '12345',
             total: '50.00',
@@ -27,7 +26,7 @@ import PaypalCheckoutButton from "./PaypalCheckoutButton";
     }
     return(
         <React.Fragment>
-            <Navbar/>
+            <Navbar account={account} setAccount={setAccount}/>
             <section className="section1">
                 <div className="section1__container">
                     <h1 className="section1__tittle">
