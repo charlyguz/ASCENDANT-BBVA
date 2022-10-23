@@ -42,35 +42,39 @@ function Landing({account,setAccount}) {
 
 
                 <section className="section__NFT ">
-                    <div className="section__NFT-container ">
+                    {/* <div className="section__NFT-container "> */}
                     <img
                         className="section__partner-img"
-                        src={require("../../assets/nftExample.svg").default} alt=""
+                        src={require("../../assets/7.png")} alt=""
                         />
                     <img
                         className="section__partner-img"
-                        src={require("../../assets/nftExample.svg").default} alt=""
+                        src={require("../../assets/13.png")} alt=""
                     />
                     <img
                         className="section__partner-img"
-                        src={require("../../assets/nftExample.svg").default} alt=""
+                        src={require("../../assets/15.png")} alt=""
                     />
                     <img
                         className="section__partner-img"
-                        src={require("../../assets/nftExample.svg").default} alt=""
+                        src={require("../../assets/16.png")} alt=""
                     />
                     <img
                         className="section__partner-img"
-                        src={require("../../assets/nftExample.svg").default} alt=""
+                        src={require("../../assets/14.png")} alt=""
                     />
-                    </div>
+                    <img
+                        className="section__partner-img"
+                        src={require("../../assets/5.png")} alt=""
+                    />
+                    {/* </div> */}
                 </section>
 
 
 
                 <section className="section__services" id="services"> 
-                        <h2 className="subtitle">Crypto</h2>
-                        <p className="p-descript">Obtenga sus puntos bancomer al mantener sus nfts </p>
+                        <h2 className="subtitle">ACENDANT BBVA</h2>
+                        <p className="p-descript">BENEFICIOS DE LA COLECCION</p>
                         <div className="section__services-container">
                         <div className="section__services-service-box">
                             <div className="section__services-service-image-box">
