@@ -60,16 +60,7 @@ function Navbar({account,setAccount}) {
                 })}
               >
                 Wallet BBVA
-              </NavLink>
-              <NavLink
-                to="/staking"
-                className="header__menu-item"
-                style={({ isActive }) => ({
-                  color: isActive ? "#fff" : "#545e6f",
-
-           
-                })}
-              >
+              
                 Staking
               </NavLink>
               <NavLink
