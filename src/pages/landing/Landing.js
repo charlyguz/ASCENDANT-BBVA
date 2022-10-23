@@ -136,7 +136,7 @@ function Landing({account,setAccount}) {
 
                     <section className="section__beneficios" id="beneficios"> 
                         <h2 className="subtitle2">Beneficios</h2>
-                        <p className="p-descript2">Obtenga sus puntos bancomer al mantener sus nfts </p>
+                        <p className="p-descript2">Obtenga sus puntos BBVA al mantener sus nfts </p>
                         <div className="section__beneficios-boxes">
                                 <div className="section__beneficios-container1">
                                     <div className="section__beneficios-beneficio-box">
@@ -207,7 +207,7 @@ function Landing({account,setAccount}) {
                                         src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
                                         alt=""
                                     />
-                                    <div className="section__rareza-box-text"> <p className="section__rareza-box-text">Comunsssssssssssssssssssssssssssssss</p> </div>
+                                    <div className="section__rareza-box-text"> <p className="section__rareza-box-text">Comun</p> </div>
                                     
                                 </div>
                                 <div className="section__rareza-box">
@@ -252,11 +252,10 @@ function Landing({account,setAccount}) {
                                 </div>
                             </div>
                             
-
                     </section>
 
 
-                    <section className="section__about container" id="roadmap">
+                    <section className="section__about" id="roadmap">
                         <div className="section__about-container">
                         <div className="section__about-top">
                             <h2 className="section__about-title">CryptoBlueberry</h2>

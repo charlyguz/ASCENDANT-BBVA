@@ -78,7 +78,6 @@ import PaypalCheckoutButton from "./PaypalCheckoutButton";
                         </div>
                     </div>
                 </section>
-                <PaypalCheckoutButton order={order} />
 
             </div>
         </React.Fragment>

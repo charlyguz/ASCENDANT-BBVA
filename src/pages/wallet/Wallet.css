@@ -127,18 +127,20 @@ p {
   color: #FFFFFF;
 }
 
+.wsection2__container1{
 
+}
 
 .wsection2{
   width: 100%;
   height: 100vh;
   display: flex;
-  margin-bottom: 200px;
   background: linear-gradient(180deg, #0C1234 4.97%, #1F1545 65.48%);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .wsection2__title{
-  position: relative;
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 800;
@@ -151,9 +153,13 @@ p {
   color: #C9A5E9;
 
 }
+.wsection2__container2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
 .wsection2__p{
-  position: relative;
-  left: 100px;
   height: 800px;
   width: 70%;
   font-family: 'Inter';
@@ -176,7 +182,6 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 60px;
   background: linear-gradient(180deg, rgba(31, 21, 69, 0.8) 26.37%, rgba(4, 1, 22, 0.8) 100%), radial-gradient(33.71% 33.71% at 48.75% 40.74%, rgba(255, 255, 255, 0.8) 0%, rgba(4, 1, 22, 0.8) 64.42%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
 
 }
