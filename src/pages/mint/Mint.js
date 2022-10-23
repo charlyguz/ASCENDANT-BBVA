@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+import { ethers, BigNumber } from 'ethers';
 import "./Mint.css";
 import Navbar from "../global components/navbar/Navbar";
 import PaypalCheckoutButton from "../credit card/PaypalCheckoutButton";
-
-function Mint() {
+// import ABI from '../contract/ABI.json';
+const CONTRACTAddress = "";
+const ABI = 'das';
+function Mint({ account, setAccount }) {
+    const [mintAmount, setMintAmount] = useState(0);
     const order = {
         customer : '12345',
         total: '50.00',
@@ -23,12 +27,38 @@ function Mint() {
                 quantity: 2,
             }
         ]
-}
-    return (
+    }
 
-        
+    async function handleMint() {
+        if (window.ethereum) {
+          const provider = new ethers.providers.Web3Provider(window.ethereum);
+          const signer = provider.getSigner();
+          const contract = new ethers.Contract(
+            CONTRACTAddress,
+            ABI.abi,
+            signer
+          );
+          try {
+            const response = await contract.mint(BigNumber.from(mintAmount), {value: ethers.utils.parseEther((0.033 * mintAmount).toString()),});
+            console.log('response: ', response);
+          } catch (err) {
+            console.log("error: ", err)
+          }
+        }
+      }
+    
+    const handleDecrement = () => {
+      if (mintAmount <= 1) return;
+      setMintAmount(mintAmount - 1);
+    };
+    const handleIncrement = () => {
+      if (mintAmount >= 10) return;
+      setMintAmount(mintAmount + 1);
+    };
+
+    return (    
     <React.Fragment>
-        <Navbar/>
+        <Navbar account={account} setAccount={setAccount}/>
         <div className="mint__container-general">
         <main className="main">
             <div className="main__NFTcontainer">
@@ -49,12 +79,12 @@ function Mint() {
                 El futuro esta a nuestro alcance</p>
             </div>
             <div className="main__button-container">
-                <button className="main__button-minus">-</button>
-                <label className="main__label">3</label>
-                <button className="main__button-plus">+</button>
+                <button className="main__button-minus"  onClick={handleDecrement}>-</button>
+                <label className="main__label">{mintAmount}</label>
+                <button className="main__button-plus" onClick={handleIncrement}>+</button>
                 
             </div>
-            <button className="main__button-mint">Mint Now</button>
+            <button className="main__button-mint" onClick={handleMint}>Mint Now</button>
             <div className="main__paypal">
                 <PaypalCheckoutButton order={order} />
             </div>
