@@ -15,7 +15,7 @@ En CryptoBlueberry desarrollamos una forma de  comunicar el mundo real con la we
 - [Wallet](#Wallet)
 - [Colección](#Colección)
 - [Empeño](#Empeño)
-- 
+
 
 
 # Video
