@@ -1,6 +1,6 @@
-
-body{
-    background: blue;
+.staking__container-general{
+   max-width: 1200px;
+    margin: 0 auto; 
 }
 .main-staking{
     display: flex;

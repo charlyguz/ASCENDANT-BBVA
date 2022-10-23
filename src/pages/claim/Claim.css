@@ -1,0 +1,51 @@
+.claim__container-general{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.claim__container1{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 700px;
+    margin-bottom: 70px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.claim__title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.claim__button{
+    width: 250px;
+    height: 53px;
+    background: linear-gradient(94.01deg, #1D87BF -3.44%, #1695AA 41.28%, #0A4B71 100%);
+    border-radius: 25px;
+    border: solid 1px #0A4B71;
+}
+.claim__button:active{
+    background: linear-gradient(91.93deg, #467CB3 0%, #663E9F 102.81%);
+    border: 2px solid #FFFFFF;
+}
+.claim__container2{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.claim__list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.claim__list__item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}

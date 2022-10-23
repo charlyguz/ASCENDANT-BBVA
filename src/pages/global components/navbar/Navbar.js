@@ -91,6 +91,16 @@ function Navbar({account,setAccount}) {
               >
                 Hipoteca NFT
               </NavLink>
+              <NavLink
+                to="/claim"
+                className="header__menu-item"
+                style={({ isActive }) => ({
+                  color: isActive ? "#fff" : "#545e6f",
+          
+                })}
+              >
+                Claim
+              </NavLink>
             </ul>
           </div>
 
