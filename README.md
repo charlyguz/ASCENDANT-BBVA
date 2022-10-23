@@ -71,7 +71,6 @@ El usuario canjeará sus cajas de regalo entrando al dashboard en nuestra dapp, 
 
 
 
-
 # Empeño                                           
 
 ![digital-world-nft-illustration-concept-flat-illustration-isolated-on-white-background-vector.jpg](https://i.postimg.cc/y6D3bRBn/digital-world-nft-illustration-concept-flat-illustration-isolated-on-white-background-vector.jpg)
