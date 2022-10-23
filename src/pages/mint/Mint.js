@@ -111,10 +111,11 @@ function Mint() {
                 
             </div>
             <button className="main__button-mint">Mint Now</button>
-            <div className="main__paypal">
+            <div className="main__payment">
                 <PaypalCheckoutButton order={order} />
+                
             </div>
-            <Elements stripe={stripePromise}>
+            <Elements stripe={stripePromise} >
                     <div className="container p-4">
                         <div className="row">
                             <div className="col-md-4 offset-md-4">
@@ -123,7 +124,7 @@ function Mint() {
                         </div>
                         
                     </div>
-                </Elements>
+            </Elements>
         </main>
         
         </div>
