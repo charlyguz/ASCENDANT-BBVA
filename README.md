@@ -9,7 +9,7 @@ En CryptoBlueberry desarrollamos una forma de  comunicar el mundo real con la we
 # Contenido
 
 - [vídeo](#vídeo)
-- [Colección BBVA](#Colección BBVA)
+- [ColecciónBBVA](#ColecciónBBVA)
 - [Tutorial](#Tutorial)
 - [AIRDROPS](#AIDROPS)
 - [Ecosistema](#Ecosistema)
