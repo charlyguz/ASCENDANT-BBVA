@@ -215,21 +215,16 @@ function Landing({account,setAccount}) {
                                         className="section__rareza-box-image1"
                                         src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
                                         alt=""
-<<<<<<< HEAD
-                                    />
-                                    <p className="section__rareza-box-text">Muy Raro</p>
+                                    /> */}
+                                    <p className="section__rareza-box-text">Comun</p>
                                 </div>
                                 <div className="section__rareza-box">
-                                    <img
+                                    {/* <img
                                         className="section__rareza-box-image1"
                                         src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
                                         alt=""
-                                    />
-                                    <p className="section__rareza-box-text">Raro</p>
-=======
                                     /> */}
                                     <p className="section__rareza-box-text">Comun</p>
->>>>>>> 96debcdbedeb179d05c5366af8f4b0f3a3eea6cf
                                 </div>
                                 <div className="section__rareza-box">
                                     {/* <img
@@ -244,21 +239,8 @@ function Landing({account,setAccount}) {
                                         className="section__rareza-box-image1"
                                         src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
                                         alt=""
-<<<<<<< HEAD
-                                    />
-                                    <p className="section__rareza-box-text">Basico</p>
-=======
                                     /> */}
                                     <p className="section__rareza-box-text">Comun</p>
-                                </div>
-                                <div className="section__rareza-box">
-                                    {/* <img
-                                        className="section__rareza-box-image1"
-                                        src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}
-                                        alt=""
-                                    /> */}
-                                    <p className="section__rareza-box-text">Comun</p>
->>>>>>> 96debcdbedeb179d05c5366af8f4b0f3a3eea6cf
                                 </div>
                                 <div className="section__rareza-box">
                                     {/* <img
