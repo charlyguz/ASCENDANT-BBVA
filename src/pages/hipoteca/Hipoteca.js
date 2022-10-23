@@ -1,7 +1,8 @@
 import React from "react";
 import Navbar from "../global components/navbar/Navbar";
 import "./Hipoteca.css";
-
+import abi from "../../contracts/AIRDROP.json";
+addres = "0x3990e55d5d43Ad804E41148f0533321Fe7463096"
 function Hipoteca({ account, setAccount }){
     return(
         <React.Fragment>

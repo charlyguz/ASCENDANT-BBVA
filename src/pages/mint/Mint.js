@@ -8,7 +8,7 @@ import { loadStripe } from '@stripe/stripe-js';
 import { Elements, CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
 import axios from "axios";
 import abi from '../../contracts/CryptoBlueBerry.json';
-const CONTRACTAddress = "0x2347C1DB57cF4f1557b97b13f5A9B467ddbA6145";
+const CONTRACTAddress = "0x25bcABe28b161C9c90280cE60e341Bf964b004bD";
 const stripePromise = loadStripe("pk_test_51LvKUxHJpuPbpMgxiKFeC7ZO0mZ11LCeqZlcssqIl0glO5D5xS24fefDr0REoKfzUNEE8XzUgLJX5yLrlmu2i7cv00ZbiI0PqK")
 
 const CheckoutForm = () => {
