@@ -12,8 +12,10 @@ En CryptoBlueberry desarrollamos una forma de  comunicar el mundo real con la we
 - [Tutorial](#Tutorial)
 - [AIRDROPS](#AIDROPS)
 - [Ecosistema](#Ecosistema)
+- [Wallet](# Wallet)
 - [Colección](#Colección)
 - [Empeño](#Empeño)
+- 
 
 
 # Video
@@ -62,12 +64,11 @@ El usuario canjeará sus cajas de regalo entrando al dashboard en nuestra dapp, 
 
 
 
-## Landing Page
+## Wallet
 ![Whats-App-Image-2022-10-21-at-8-46-45-PM.jpg](https://i.postimg.cc/wvdf12wx/Whats-App-Image-2022-10-21-at-8-46-45-PM.jpg)
 
 
 
-## Wallet
 
 
 
