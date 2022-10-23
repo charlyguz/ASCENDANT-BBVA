@@ -67,6 +67,9 @@ El usuario canjeará sus cajas de regalo entrando al dashboard en nuestra dapp, 
 ## Wallet
 ![Whats-App-Image-2022-10-23-at-10-06-12-AM.jpg](https://i.postimg.cc/44r4RRhK/Whats-App-Image-2022-10-23-at-10-06-12-AM.jpg)
 
+Con solo un par de click el usuario activará la Crypto Wallet BBVA para poder interactuar con la web 3 y almacenar nuestra colección, esto  basado en el proyecto NEW GEN de BBVA suiza, el usuario podrá comprar comprar la colección desde la banca móvil pagando asi en pesos, o con crypto desde desde nuestra dapp, hacemos hincapié en que este proyecto está pensado para implementarse dentro de la banca móvil, aunque para efectos prácticos y visuales se verán páginas webs. 
+
+
 
 # Empeño                                           
 
