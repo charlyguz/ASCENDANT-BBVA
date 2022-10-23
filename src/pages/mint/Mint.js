@@ -116,49 +116,51 @@ function Mint({ account, setAccount }) {
 
     return (    
     <React.Fragment>
-        <Navbar account={account} setAccount={setAccount}/>
-        <div className="mint__container-general">
-        <main className="main">
-            <div className="main__NFTcontainer">
-                <img src={require("../../assets/uno.gif")} className="main__nftimage-1" alt=""/>
-                <img src={require("../../assets/dos.gif")} className="main__nftimage-3" alt=""/>
-                <img src={require("../../assets/tres.gif")} className="main__nftimage-2" alt=""/>
-            </div>
-            <div className="main__title">
-                <h3>Bank pets</h3>
-            </div>
-            <div className="main__subtitle">
-                <h4>El futuro esta a nuestro alcance</h4>
-            </div>
-            <div className="main__text">
-                <h1>Lorem Ipsum is simply dummy text of the printing and  </h1>
-                <p>El futuro esta a nuestro alcance  <br/> 
-                El futuro esta a nuestro alcance  <br/>
-                El futuro esta a nuestro alcance</p>
-            </div>
-            <div className="main__button-container">
-                <button className="main__button-minus"  onClick={handleDecrement}>-</button>
-                <label className="main__label">{mintAmount}</label>
-                <button className="main__button-plus" onClick={handleIncrement}>+</button>
-                
-            </div>
-            <button className="main__button-mint" onClick={handleMint}>Mint Now</button>
-            <div className="main__payment">
-                <PaypalCheckoutButton order={order} />
-                
-            </div>
-            <Elements stripe={stripePromise} >
-                    <div className="container p-4">
-                        <div className="row">
-                            <div className="col-md-4 offset-md-4">
-                            <CheckoutForm />  
+        <div className="cc_mint">
+            <Navbar account={account} setAccount={setAccount}/>
+            <div className="mint__container-general">
+            <main className="main">
+                <div className="main__NFTcontainer">
+                    <img src={require("../../assets/uno.gif")} className="main__nftimage-1" alt=""/>
+                    <img src={require("../../assets/dos.gif")} className="main__nftimage-3" alt=""/>
+                    <img src={require("../../assets/tres.gif")} className="main__nftimage-2" alt=""/>
+                </div>
+                <div className="main__title">
+                    <h3>Bank pets</h3>
+                </div>
+                <div className="main__subtitle">
+                    <h4>El futuro esta a nuestro alcance</h4>
+                </div>
+                <div className="main__text">
+                    <h1>Lorem Ipsum is simply dummy text of the printing and  </h1>
+                    <p>El futuro esta a nuestro alcance  <br/> 
+                    El futuro esta a nuestro alcance  <br/>
+                    El futuro esta a nuestro alcance</p>
+                </div>
+                <div className="main__button-container">
+                    <button className="main__button-minus"  onClick={handleDecrement}>-</button>
+                    <label className="main__label">{mintAmount}</label>
+                    <button className="main__button-plus" onClick={handleIncrement}>+</button>
+                    
+                </div>
+                <button className="main__button-mint" onClick={handleMint}>Mint Now</button>
+                <div className="main__payment">
+                    <PaypalCheckoutButton order={order} />
+                    
+                </div>
+                <Elements stripe={stripePromise} >
+                        <div className="container p-4">
+                            <div className="row">
+                                <div className="col-md-4 offset-md-4">
+                                <CheckoutForm />  
+                                </div>
                             </div>
+                            
                         </div>
-                        
-                    </div>
-            </Elements>
-        </main>
-        
+                </Elements>
+            </main>
+            
+            </div>
         </div>
 
 

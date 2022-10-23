@@ -56,7 +56,7 @@ function Navbar({account,setAccount}) {
                 className="header__menu-item"
                 style={({ isActive }) => ({
                     color: isActive ? "#fff" : "#545e6f",
-                 
+                    
                 })}
               >
                 Wallet BBVA
@@ -66,6 +66,7 @@ function Navbar({account,setAccount}) {
                 className="header__menu-item"
                 style={({ isActive }) => ({
                   color: isActive ? "#fff" : "#545e6f",
+
            
                 })}
               >

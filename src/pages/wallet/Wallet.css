@@ -1,9 +1,9 @@
-* {
+/* * {
     box-sizing: border-box;
     padding: 0;
     border: 0;
     color: white;
-  }
+  } */
 html {
   /* background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ; */
 
@@ -32,7 +32,7 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-body > .wsection1{
+/* body > .wsection1{
   margin: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
@@ -42,8 +42,10 @@ body > .wsection1{
   line-height: 1.5;
   color: #212529;
   background: red;
-}  
-
+}   */
+.cc_wallet{
+  background: linear-gradient(103.88deg, #07132D -1.92%, #0F1440 25.99%, #060F1E 97.33%);
+}
 .wsection1{
   width: 100%;
   height: 100vh;
@@ -51,6 +53,7 @@ body > .wsection1{
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+
 }
 .wsection1__container{
   display: flex;
@@ -79,11 +82,11 @@ body > .wsection1{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
   }
-.wsection1__image1{
- 
-}
+/* .wsection1__image1{
+ height: 50  %;
+} */
 .wsection1__container2{
   position: relative;
   height: 70%;
@@ -131,6 +134,7 @@ body > .wsection1{
   height: 100vh;
   display: flex;
   margin-bottom: 200px;
+  background: linear-gradient(180deg, #0C1234 4.97%, #1F1545 65.48%);
 }
 .wsection2__title{
   position: relative;
@@ -173,6 +177,8 @@ body > .wsection1{
   flex-direction: column;
   align-items: center;
   margin-top: 60px;
+  background: linear-gradient(180deg, rgba(31, 21, 69, 0.8) 26.37%, rgba(4, 1, 22, 0.8) 100%), radial-gradient(33.71% 33.71% at 48.75% 40.74%, rgba(255, 255, 255, 0.8) 0%, rgba(4, 1, 22, 0.8) 64.42%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+
 }
 .wsection3__img{
   position: relative;

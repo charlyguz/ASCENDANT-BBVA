@@ -1,4 +1,7 @@
-
+.cc_hipoteca{
+    background: linear-gradient(180deg, #0C1827 0%, #212C3E 16.46%, #2F3A4E 25.95%, #333D52 40.9%, #3E485E 51.04%, #5A6986 100%);
+    height: 200vh;
+}
 .hipoteca__container-general{
     width: 1200 px;
     margin: 0 auto;

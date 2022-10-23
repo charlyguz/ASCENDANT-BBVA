@@ -1,16 +1,17 @@
-*{
+/* *{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-display: swap;
-    margin: 0;
+    margin: -100%;
     padding: 0;
-}
+} */
 .header{
     position: relative;
     top: 0;
     height: 100px;
     width: 100%;
+    margin-top: -1.2%;
 }
 .header-container{
     display: flex;

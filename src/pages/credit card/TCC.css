@@ -3,6 +3,7 @@
     padding: 0;
     border: 0;
     color: white;
+    margin: 0%;
   }
 html {
   /* background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ; */
@@ -31,7 +32,7 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-body > .section1 {
+/* body > .section1 {
   margin: 0;
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
     Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
@@ -41,6 +42,20 @@ body > .section1 {
   line-height: 1.5;
   color: #212529;
   background: radial-gradient(99.05% 99.05% at 49.16% 99.05%, #040116 0%, #040116 57.81%, #1F1546 76.98%, #000000 84.33%);
+}   */
+.cc-container{
+  background: radial-gradient(99.05% 99.05% at 49.16% 99.05%, #040116 0%, #040116 57.81%, #1F1546 76.98%, #000000 84.33%);
+}
+.section1 {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  /* background: radial-gradient(99.05% 99.05% at 49.16% 99.05%, #040116 0%, #040116 57.81%, #1F1546 76.98%, #000000 84.33%); */
 }  
 
 .section1{

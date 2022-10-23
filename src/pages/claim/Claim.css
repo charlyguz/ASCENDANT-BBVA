@@ -1,3 +1,7 @@
+.cc_claim{
+    height: 150vh;
+    background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ;
+}
 .claim__container-general{
     max-width: 1200px;
     margin: 0 auto;
