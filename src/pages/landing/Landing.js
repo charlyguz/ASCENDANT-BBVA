@@ -203,7 +203,7 @@ function Landing({account,setAccount}) {
                                 <div className="section__rareza-box-text"> <p className="section__rareza-box-text">Comunsssssssssssssssssssssssssssssss</p> </div>
                                 
                             </div>
-                        <div className="section__rareza-box">
+                            <div className="section__rareza-box">
                                 <img
                                     className="section__rareza-box-image1"
                                     src={require("https://as2.ftcdn.net/v2/jpg/02/85/66/95/1000_F_285669574_V9ZJVCbAJAvDWKBbmS3KymsKYvXF3vJP.jpg")}

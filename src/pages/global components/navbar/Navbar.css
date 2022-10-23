@@ -71,8 +71,8 @@
 }
 .header__button{
     display: flex;
-    position: absolute;
-    left: 1600px;
+    position: relative;
+    left: 700px;
     align-items: center;
 }
 .header__button-connect{

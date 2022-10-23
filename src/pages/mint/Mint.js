@@ -1,8 +1,64 @@
-import React, { useState } from "react";
+import React, { useState }, { useState } from "react";
 import { ethers, BigNumber } from 'ethers';
 import "./Mint.css";
+import "bootswatch/dist/flatly/bootstrap.min.css";
 import Navbar from "../global components/navbar/Navbar";
 import PaypalCheckoutButton from "../credit card/PaypalCheckoutButton";
+import { loadStripe } from '@stripe/stripe-js';
+import { Elements, CardElement, useStripe, useElements } from '@stripe/react-stripe-js';
+import axios from "axios";
+
+const stripePromise = loadStripe("pk_test_51LvKUxHJpuPbpMgxiKFeC7ZO0mZ11LCeqZlcssqIl0glO5D5xS24fefDr0REoKfzUNEE8XzUgLJX5yLrlmu2i7cv00ZbiI0PqK")
+
+const CheckoutForm = () => {
+
+    const stripe = useStripe();
+    const elements = useElements();
+    const [loading, setLoading] = useState(false);
+    
+    const handleSubmit = async(event) => {
+        event.preventDefault();
+        const {error, paymentMethod} = await stripe.createPaymentMethod({
+            type: 'card',
+            card: elements.getElement(CardElement)
+        });  
+
+        setLoading(true);
+
+        if(!error){
+            const { id } = paymentMethod;
+            try {
+                const data = await axios.post('http://localhost:3001/api/checkout', {
+                    id,
+                    amount: 10000
+                });
+                console.log('data: ',data);
+                // mostrar alerta de pago exitoso
+                if(data.data.message === 'Payment Successful'){
+                    alert('Pago exitoso');
+                } else {
+                    alert('Pago fallido');
+                }
+                elements.getElement(CardElement).clear();
+            } catch (error) {
+                console.log(error);
+            }
+            setLoading(false);
+        }
+    }
+
+    return <form onSubmit={handleSubmit} className="card card-body">
+        {/* <img src={require("../../assets/ascendent.png")} alt="ascendent" className="img-fluid" />
+        <h3 className="text-center text-dark">Price: 10$</h3> */}
+        <div className="form-group">
+            <CardElement className="form-control my-4" />
+        </div>
+
+        <button className="btn btn-primary" disabled={!stripe}>
+            Buy
+        </button>
+    </form>
+}
 import ABI from '../../contracts/ABI.json';
 const CONTRACTAddress = "0xAeB702F008536B31E207c572669F0BcB3c4Fa119";
 
@@ -87,12 +143,25 @@ function Mint({ account, setAccount }) {
                 
             </div>
             <button className="main__button-mint" onClick={handleMint}>Mint Now</button>
-            <div className="main__paypal">
+            <div className="main__payment">
                 <PaypalCheckoutButton order={order} />
+                
             </div>
+            <Elements stripe={stripePromise} >
+                    <div className="container p-4">
+                        <div className="row">
+                            <div className="col-md-4 offset-md-4">
+                            <CheckoutForm />  
+                            </div>
+                        </div>
+                        
+                    </div>
+            </Elements>
         </main>
         
         </div>
+
+
     </React.Fragment>
   );
 }
