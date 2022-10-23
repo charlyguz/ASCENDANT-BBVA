@@ -16,7 +16,7 @@ function Hipoteca({ account, setAccount }){
                             <button className="hipoteca__section1__container1__butons__button">Comprar</button>
                             <button className="hipoteca__section1__container1__butons__button">Vender</button>
                         </div>
-                    </div>
+                    </div> 
                     <div className="hipoteca__section1__container2">
                         <img src={require("../../assets/Bitcoin.png")} alt="hipoteca"/>
                     </div>
