@@ -1,10 +1,10 @@
-* {
+/* * {
     box-sizing: border-box;
     padding: 0;
     border: 0;
     color: white;
   }
-  
+   */
   html {
     /* background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ; */
   }
@@ -41,7 +41,7 @@
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    /* background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ; */
+    background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ;
   }  
   /* SECTION HERO START */
   .section__hero {
@@ -53,12 +53,14 @@
     align-items: center;
   }
   
-  .section__hero--left {
+  /* .section__hero--left {
   }
   
   .section__hero--left-container {
-  }
-  
+  } */
+.cc_landig{
+  background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ;
+}
   .section__hero-title {   
     /* Una nueva manera de manejar tus NFT */
     position: absolute;
@@ -75,7 +77,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    /* text-fill-color: transparent; */
 
 
   }
@@ -137,9 +139,9 @@ border-color: transparent;
     top: 10px; 
 }
 
-.section__hero--right-img {
+/* .section__hero--right-img {
 
-}
+} */
 
 /* SECTION HERO END */
 
@@ -200,6 +202,7 @@ border-color: transparent;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
+    
     }
 .p-descript{
 /* Obtenga sus puntos bancomer al mantener sus nfts */
@@ -226,6 +229,11 @@ border-color: transparent;
     height: 800px;
     width: 100%;
     margin-top: 200px;
+    background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ;
+
+}
+.text_services{
+  background: radial-gradient(100% 567.85% at 100% 31.95%, #231B49 0%, #231B49 0.01%, #241F4C 24.32%, #19263E 48.82%, #252244 73.32%, #331B4C 100%) ;
 }
 
 .section__services-container {

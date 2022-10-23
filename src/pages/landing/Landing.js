@@ -9,7 +9,6 @@ function Landing({account,setAccount}) {
         
         <React.Fragment>
             <div className="cc_landig">
-
                 <Navbar account={account} setAccount={setAccount}/>
                 <div className="landing__container-general">
                 <main className="main">
@@ -20,7 +19,7 @@ function Landing({account,setAccount}) {
                                 Una nueva manera de manejar tus NFT
                             </h1>
                             <p className="section__hero-description">
-                                Obtenga sus puntos bancomer al mantener sus nfts
+                                Obtenga sus puntos BBVA al mantener sus nfts
                             </p>
                             <div className="section__hero--left-buttons">
                                 <button className="section__hero--left-buttona">
@@ -74,9 +73,11 @@ function Landing({account,setAccount}) {
 
 
 
-                    <section className="section__services" id="services"> 
-                            <h2 className="subtitle">ACENDANT BBVA</h2>
-                            <p className="p-descript">BENEFICIOS DE LA COLECCION</p>
+                    <section className="section__services" id="services">
+                            <div className="text__services">
+                                <h2 className="subtitle">ACENDANT BBVA</h2>
+                                <p className="p-descript">BENEFICIOS DE LA COLECCION</p>
+                            </div> 
                             <div className="section__services-container">
                             <div className="section__services-service-box">
                                 <div className="section__services-service-image-box">
