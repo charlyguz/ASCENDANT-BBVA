@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4a377333.css",
+    "main.js": "/static/js/main.fbec831d.js",
+    "static/media/general.gif": "/static/media/general.fcf567cf6fd447e9ff58.gif",
+    "static/media/tres.gif": "/static/media/tres.3e3e5e55411facc086e2.gif",
+    "static/media/dos.gif": "/static/media/dos.9420597629097312e25b.gif",
+    "static/media/uno.gif": "/static/media/uno.4ed282edb2dd2af829e4.gif",
+    "static/media/16.png": "/static/media/16.66c316c5667d2ac8195d.png",
+    "static/media/7.png": "/static/media/7.69397c1c27d6433a8521.png",
+    "static/media/13.png": "/static/media/13.1219d73c2df5d4608859.png",
+    "static/media/5.png": "/static/media/5.551b4d098961ed4e0258.png",
+    "static/media/15.png": "/static/media/15.8e6f8ed78d9ad9ae6164.png",
+    "static/media/heroImg.png": "/static/media/heroImg.4e37b501e19916f3883f.png",
+    "static/media/14.png": "/static/media/14.d1072de288e194b3ff1d.png",
+    "static/media/vault.png": "/static/media/vault.43e7ebf5bb599a5d1b7b.png",
+    "static/media/image 35.png": "/static/media/image 35.b7ee445b86e36f90b129.png",
+    "static/media/Bitcoin.png": "/static/media/Bitcoin.0c5f74cf7b6918f40b65.png",
+    "static/media/Fingerprint.png": "/static/media/Fingerprint.c6f81047796cac7df57d.png",
+    "static/media/image 33.png": "/static/media/image 33.fff004bf55a06c0202b4.png",
+    "static/media/World.png": "/static/media/World.34d752e8271591d77104.png",
+    "static/media/E-Wallet-rafiki 1.png": "/static/media/E-Wallet-rafiki 1.aeb6173a29f5e4c6954d.png",
+    "static/media/money-incoming.png": "/static/media/money-incoming.e86f2b3d5c7586fdb1c9.png",
+    "static/media/Mobile payments-rafiki 1.svg": "/static/media/Mobile payments-rafiki 1.415ce7849e0a4a36fa5428c70402b655.svg",
+    "index.html": "/index.html",
+    "main.4a377333.css.map": "/static/css/main.4a377333.css.map",
+    "main.fbec831d.js.map": "/static/js/main.fbec831d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a377333.css",
+    "static/js/main.fbec831d.js"
+  ]
+}
