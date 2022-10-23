@@ -11,7 +11,7 @@ function Claim({account,setAccount}){
                 <div className="claim__container-general">
                     <div className="claim__container1">
                         <h3 className="claim__title">Aqui podras canjear tus airdrops dandole click en el boton</h3>
-                        <button className="claim__button">Claim</button>
+                        <button className="claim__button">Reclamar beneficios</button>
                     <div/>
                 </div>
                     <div className="claim__container2">

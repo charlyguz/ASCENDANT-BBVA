@@ -1,14 +1,12 @@
 /* *{
     font-family: 'Inter', sans-serif;
-    font-weight: 400;
+    font-width: 400;
     font-style: normal;
     font-display: swap;
     margin: -100%;
     padding: 0;
 } */
 .header{
-    position: relative;
-    top: 0;
     height: 100px;
     width: 100%;
     margin-top: -1.2%;
@@ -16,7 +14,7 @@
 .header-container{
     display: flex;
     height: 100px;
-    weight: 100%;
+    width: 100%;
     background: transparent;
     /* box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 4px 4px rgb(0 0 0 / 25%); */
     color: #ffffff;
@@ -25,37 +23,30 @@
     font-style: normal;
     font-display: swap;
     align-items: center;
+    justify-content: center;
 }
 .header__logo img{
-    weight: 50px;
     height: 80px;
-    margin-left: 20px;
-    position: relative;
-    left: 100px;
 }
 .name-proyect{
     color: #fff;
-    position: absolute;
-    left: 115px;
     top: 17px;
     font-size: larger;
     font-weight: bold;
 }
 .header__menu{
     margin-right: 20px;
-    position: relative;
-    left: 480px;
+    justify-content: space-between;
 }
 .header__menu-list{
     display: flex;
     list-style: none;
     text-decoration: none; 
-    /* position: relative;
-    left: 500px;  */
+
 }
 /* .header{
     height: 500px;
-    weight: 100%;
+    width: 100%;
 } */
 .header__menu-item{
     display: flex;
@@ -65,6 +56,7 @@
     align-self: center;
     align-items: center;
     font-size: 14px;
+
 }
 .header__menu-item:hover{
     color: #B5E5F9;
@@ -72,8 +64,6 @@
 }
 .header__button{
     display: flex;
-    position: relative;
-    left: 700px;
     align-items: center;
 }
 .header__button-connect{
@@ -83,6 +73,12 @@
     border-radius: 10px;
     border-color: transparent;
     cursor: pointer;
+    margin: 0 auto;
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .header__button-connect:hover{
