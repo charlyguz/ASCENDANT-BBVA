@@ -145,7 +145,7 @@ border-color: transparent;
 
 /* SECTION NFT START */
 
-.section__NFT {
+/* .section__NFT {
     width: 100%;
     height: 300px;
     background-color: var(--secundary-bg-color);
@@ -154,21 +154,31 @@ border-color: transparent;
 
 .section__NFT-container {
     position: relative;
-    width: 90%;
+    width: 50%;
     left: 4px;
     display: flex;
+    height: 100%;
 }
 
 .section__NFT-img {
     height: 40%;
     filter: brightness(.5) grayscale(1);
     opacity: .5;
-    margin : 0 20px;
+    /* margin : 0 20px; 
+    max-width: 5%;
 }
 .section__partner--img{
   position: relative;
+} */
+.section__NFT{
+  display: flex;
+  justify-content: center;
+  height: 35%;
 }
-  
+.section__partner-img{
+  /* height: 10%; */
+  opacity: .7;
+}
   /* SECTION SERVICES START */
 .subtitle{
     /* Crypto */
@@ -176,7 +186,7 @@ border-color: transparent;
     width: 916px;
     height: 154px;
     left: 502px;
-    top: 1053px;
+    top: 1100px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -215,6 +225,7 @@ border-color: transparent;
     margin-bottom: 200px;
     height: 800px;
     width: 100%;
+    margin-top: 200px;
 }
 
 .section__services-container {
