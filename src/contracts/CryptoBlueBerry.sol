@@ -18,23 +18,16 @@ contract CryptoBlueBerry is ERC721A, Ownable, ReentrancyGuard {
   mapping(address => bool) public whitelistClaimed;
   mapping (uint256 => uint256) public timeStaking;
   mapping(address => bool) public claimed;
-
-
-  string public uriPrefix = '';
-  string public uriSuffix = '.json';
-  string public hiddenMetadataUri;
   
   uint256 public cost;
   uint256 public maxSupply;
 
   bool public whitelistMintEnabled = false;
-  bool public revealed = false;
 
 
-  constructor() ERC721A("ACENDANT BBVA", "AVA") {
+  constructor() ERC721A("asdasd", "asdass") {
     cost = .006 ether;
     maxSupply = 50;
-    setHiddenMetadataUri("test");
   }
 
   function whitelistMint(uint256 _mintAmount, bytes32[] calldata _merkleProof) public payable{
@@ -44,6 +37,7 @@ contract CryptoBlueBerry is ERC721A, Ownable, ReentrancyGuard {
     require(msg.value >= cost * _mintAmount, 'Insufficient funds!');
     require(whitelistMintEnabled, 'The whitelist sale is not enabled!');
     require(!whitelistClaimed[_msgSender()], 'Address already claimed!');
+
     bytes32 leaf = keccak256(abi.encodePacked(_msgSender()));
     require(MerkleProof.verify(_merkleProof, merkleRoot, leaf), 'Invalid proof!');
 
@@ -89,20 +83,11 @@ contract CryptoBlueBerry is ERC721A, Ownable, ReentrancyGuard {
   function tokenURI(uint256 _tokenId) public view virtual override returns (string memory) {
     require(_exists(_tokenId), 'ERC721Metadata: URI query for nonexistent token');
 
-    string memory currentBaseURI = _baseURI();
-    return bytes(currentBaseURI).length > 0
-        ? string(abi.encodePacked(currentBaseURI, _tokenId.toString(), uriSuffix))
+    string memory ipfs = "ipfs://QmTXtSM2BSTHnDtyKwPdKYEVDVzdULrfYX8PPJT1HStTTu/";
+    return bytes(ipfs).length > 0
+        ? string(abi.encodePacked(ipfs, _tokenId.toString(), '.json'))
         : '';
   }
-
-  // function tokenURI(uint256 _tokenId) public view virtual override returns (string memory) {
-  //   require(_exists(_tokenId), 'ERC721Metadata: URI query for nonexistent token');
-
-  //   string memory currentBaseURI = _baseURI();
-  //   return bytes(currentBaseURI).length > 0
-  //       ? string(abi.encodePacked(currentBaseURI, _tokenId.toString(), uriSuffix))
-  //       : '';
-  // }
 
   function burn(uint256 _tokenId) public  virtual  {
     require(_isApprovedOrOwner(_msgSender(), _tokenId), 'ERC721Burnable: caller is not owner nor approved');
@@ -155,24 +140,8 @@ contract CryptoBlueBerry is ERC721A, Ownable, ReentrancyGuard {
     return ownedTokens[_owner];
   }
 
-  function setRevealed(bool _state) public onlyOwner {
-    revealed = _state;
-  }
-
   function setCost(uint256 _cost) public onlyOwner {
     cost = _cost;
-  }
-
-  function setHiddenMetadataUri(string memory _hiddenMetadataUri) public onlyOwner {
-    hiddenMetadataUri = _hiddenMetadataUri;
-  }
-
-  function setUriPrefix(string memory _uriPrefix) public onlyOwner {
-    uriPrefix = _uriPrefix;
-  }
-
-  function setUriSuffix(string memory _uriSuffix) public onlyOwner {
-    uriSuffix = _uriSuffix;
   }
 
   function setMerkleRoot(bytes32 _merkleRoot) public onlyOwner {
@@ -188,7 +157,4 @@ contract CryptoBlueBerry is ERC721A, Ownable, ReentrancyGuard {
     require(os);
   }
 
-  function _baseURI() internal view virtual override returns (string memory) {
-    return uriPrefix;
-  }
 }
