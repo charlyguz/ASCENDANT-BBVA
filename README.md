@@ -23,6 +23,7 @@ En CryptoBlueberry desarrollamos una forma de  comunicar el mundo real con la we
 
 
 # Tutorial
+![Whats-App-Image-2022-10-23-at-1-09-08-AM.jpg](https://i.postimg.cc/WbyskWk1/Whats-App-Image-2022-10-23-at-1-09-08-AM.jpg)
 
 # Colección BBVA
 (aqui insertar gif de la coleccion)
