@@ -9,7 +9,7 @@
 
 En CryptoBlueberry desarrollamos una forma de  comunicar el mundo real con la web3 además de crear una comunidad que goza de tener acceso a beneficios especiales que  da el  comprar un NFT de la colección BBVA por medio de su banca móvil.
 # Contenido
-
+- [pagina](https://acendant.netlify.app/)
 - [vídeo](#vídeo)
 - [Tutorial](#Tutorial)
 - [ACENDANT BBVA](#Colección)
@@ -72,6 +72,7 @@ El usuario canjeará sus cajas de regalo entrando al dashboard en nuestra dapp, 
 
 ## Paso uno:
 
+### Creacion de una Crypto Wallet BBVA
 
 ### Creacion de una Crypto Wallet BBVA
 
