@@ -81,7 +81,7 @@ function Navbar({account,setAccount}) {
           
                 })}
               >
-                Hipoteca NFT
+                Empeño NFT
               </NavLink>
               <NavLink
                 to="/claim"
