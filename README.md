@@ -25,7 +25,7 @@ En CryptoBlueberry desarrollamos una forma de  comunicar el mundo real con la we
 
 # Video
 
-![video](https://youtu.be/UGmjUhBG5mQ)
+[![Video](./src/assets/mint_site.png)](https://youtu.be/UGmjUhBG5mQ)
 
 
 # Tutorial
