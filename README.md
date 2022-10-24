@@ -1,5 +1,5 @@
 <img src="./src/assets/16.png" width="250" height="250" />
-
+Link a nuestra [pagina](https://acendant.netlify.app/)
 # CryptoBlueberry
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
