@@ -1,7 +1,9 @@
-![baf62ef0-88ba-44a8-87fe-9c5ab5959171.jpg](https://i.postimg.cc/fW3nSzjJ/baf62ef0-88ba-44a8-87fe-9c5ab5959171.jpg)
-
+<img src="./src/assets/16.png" width="250" height="250" />
 
 # CryptoBlueberry
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+![](https://img.shields.io/github/stars/charlyguz/CRYPTOBLUEBERRY-NFT-BBVA)![](https://img.shields.io/github/forks/charlyguz/CRYPTOBLUEBERRY-NFT-BBVA)
 
 *El inicio de una nueva Era digital*
 
@@ -10,11 +12,10 @@ En CryptoBlueberry desarrollamos una forma de  comunicar el mundo real con la we
 
 - [vídeo](#vídeo)
 - [Tutorial](#Tutorial)
+- [ACENDANT BBVA](#Colección)
 - [AIRDROPS](#AIDROPS)
 - [Ecosistema](#Ecosistema)
-- [Wallet](#Wallet)
-- [Colección](#Colección)
-- [Empeño](#Empeño)
+- [Colaboradores](#Colaboradores)
 
 
 
@@ -24,13 +25,11 @@ En CryptoBlueberry desarrollamos una forma de  comunicar el mundo real con la we
 
 
 # Tutorial
-![Whats-App-Image-2022-10-23-at-1-09-08-AM.jpg](https://i.postimg.cc/WbyskWk1/Whats-App-Image-2022-10-23-at-1-09-08-AM.jpg)
+![Tutorial](./src/assets/tutorial.png)
 
-# Colección BBVA
+# Colección ACENDANT BBVA
 
-![Whats-App-Image-2022-10-23-at-9-32-41-AM-1.jpg](https://i.postimg.cc/R0NtNTsN/Whats-App-Image-2022-10-23-at-9-32-41-AM-1.jpg)    ![Whats-App-Image-2022-10-23-at-9-32-41-AM.jpg](https://i.postimg.cc/9Q4X9N25/Whats-App-Image-2022-10-23-at-9-32-41-AM.jpg)   
-
-![b06fdb8c-b13f-4bcd-a332-f6209a3b16ec.jpg](https://i.postimg.cc/y8vVw4TZ/b06fdb8c-b13f-4bcd-a332-f6209a3b16ec.jpg)    ![57b11705-f61c-43e6-b055-6bba77249297.jpg](https://i.postimg.cc/G3FnWnLm/57b11705-f61c-43e6-b055-6bba77249297.jpg)
+![coleccion](./src/assets/general.gif)
 
 Con la colección ACENDANT BBVA, el usuario tendrá acceso a los siguientes beneficios:
 - Comunidad de Discord con canales privados donde podrá aprender sobre ntf's, crypto, finanzas, acciones, y bienes raíces.
@@ -44,7 +43,12 @@ La coleccion ACENDANT BBVA contara con 888 NFT'S, los cuales podras compras de l
 - Lista de invitados: Se otorgaran 444 tokens a clientes preferenciales de BBVA, y a miembros de la comunidad con base a dinamicas.
 - Compra publica: Cualquier persona podra comprar atravez de crypto o tarjeta de credito.
 
+[Etherscan](https://goerli.etherscan.io/address/0x25bcABe28b161C9c90280cE60e341Bf964b004bD#code)
+
+
 # AIRDROPS
+![coleccion](./src/assets/airdrop.gif)
+
 De forma trimerstral se le otorgaran NFT's de regalo a los holders, los cuales tendran una metadata oculta hasta la revelacion, donde se podra ver que tipo de beneficio es dependiento su rareza podrian ser:
 - Puntos BBVA.
 - Anualidad Gratis.
@@ -57,25 +61,43 @@ el cliente solo tendra que conectar su wallet y clickear el boton de redimir, es
 
 
 El usuario canjeará sus cajas de regalo entrando al dashboard en nuestra dapp, donde podrá clickear un boton y se le enviará un correo con su regalo, el token no se quemara solo se le quitaran los DERECHOS DE VENTA Y USO, por lo que podra seguir viendolo en OpenSea pero no podrá venderlo,De este modo no pierde su arte digital.
+
+[Etherscan](https://goerli.etherscan.io/address/0x3990e55d5d43Ad804E41148f0533321Fe7463096#code)
  
+![tcc](./src/assets/claim_site.png)
 
 # Ecosistema 
-![Whats-App-Image-2022-10-22-at-9-46-16-AM.jpg](https://i.postimg.cc/BZN2FH6P/Whats-App-Image-2022-10-22-at-9-46-16-AM.jpg)
 
 
 
-## Wallet
+## Paso uno:
+
+
+### Creacion de una Crypto Wallet BBVA
+
+
 ![Whats-App-Image-2022-10-23-at-10-06-12-AM.jpg](https://i.postimg.cc/44r4RRhK/Whats-App-Image-2022-10-23-at-10-06-12-AM.jpg)
 
 Con solo un par de click el usuario activará la Crypto Wallet BBVA para poder interactuar con la web 3 y almacenar nuestra colección, esto  basado en el proyecto NEW GEN de BBVA suiza, el usuario podrá comprar comprar la colección desde la banca móvil pagando asi en pesos, o con crypto desde desde nuestra dapp, hacemos hincapié en que este proyecto está pensado para implementarse dentro de la banca móvil, aunque para efectos prácticos y visuales se verán páginas webs. 
 
 
+## Paso Dos:
+### Compra con Tarjeta de credito desde la app
 
-# Empeño                                           
+Podras comprar cualquier NFT en fase de mint desde la app bbva, dejando la infrestuctura para que eventos masivos puedan sacar sus colecciones de fomra 100% segura.
 
-![digital-world-nft-illustration-concept-flat-illustration-isolated-on-white-background-vector.jpg](https://i.postimg.cc/y6D3bRBn/digital-world-nft-illustration-concept-flat-illustration-isolated-on-white-background-vector.jpg)
-Ahora puedes dejar tu NFT como aval en el proceso de solicitud de prestamos o créditos.
+![tcc](./src/assets/tcc_site.png)
 
+## Paso Tres:
+### Ingresa finanzas Defi
+
+Podras dejar tus NFT'S empeñandos para conseguir liquidez economica.
+
+# Colaboradores
+
+- [@charlyguz](https://github.com/charlyguz) - Carlos Guzman
+- [@rlaaron](https://github.com/rlaaron) - Aaron Rincon Lopez  
+- [@slizer98](https://github.com/slizer98) - Erick VIllafuerte 
 
 # Quick start
 
