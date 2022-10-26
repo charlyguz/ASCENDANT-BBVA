@@ -103,6 +103,7 @@ Podras dejar tus NFT'S empeñandos para conseguir liquidez economica.
 - [@charlyguz](https://github.com/charlyguz) - Carlos Guzman
 - [@rlaaron](https://github.com/rlaaron) - Aaron Rincon Lopez  
 - [@slizer98](https://github.com/slizer98) - Erick VIllafuerte 
+- [@elinai09](https://github.com/elinai09) Elinai Guerrero 
 
 # Quick start
 
