@@ -10,8 +10,7 @@ import {BrowserRouter as Router,
   Routes,
   Route,} from "react-router-dom"
 import Hipoteca from './pages/hipoteca/Hipoteca';
-//  puto aaron de mierda tienes que hacer una ruta de la pagina de mint: src\pages\mint\Mint.js
-// agregar a todasd la paginas uncontenedor de 1200 px de width y un margin 0 auto
+//xd
 function App() {
   const [account,setAccount] = useState([]);
   return (
